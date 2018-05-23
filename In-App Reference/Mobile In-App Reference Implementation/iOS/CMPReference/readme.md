@@ -20,15 +20,19 @@ Implementation Guide for iOS App Publishers
 
 
 ```
-CMPSettings cmpSettings = new CMPSettings(SubjectToGdpr.CMPGDPREnabled, “https://consentWebPage”, null);
-```
+CMPSettings *cmpSettings = [[CMPSettings alloc] init];
+cmpSettings.subjectToGDPR = @"1";
+cmpSettings.consentString = NULL;
+cmpSettings.cmpURL = https://consentWebPage;
+cmpSettings.cmpPresent = true```
 
-* In order to start the `CMPConsentViewController`, you can call the following method: `CMPConsentViewController *consentToolVC = [[CMPConsentViewController alloc] init];
+* In order to start the `CMPConsentViewController`, you can call the following method: `CMPConsentViewController`
+```*consentToolVC = [[CMPConsentViewController alloc] init];
 consentToolVC.consentToolAPI.cmpURL = @"https://acdn.adnxs.com/mobile/democmp/docs/mobilecomplete.html";
 consentToolVC.consentToolAPI.subjectToGDPR = @"1";
 consentToolVC.consentToolAPI.cmpPresent = YES;
 consentToolVC.delegate = self;
-[self presentViewController:consentToolVC animated:YES completion:nil];`
+[self presentViewController:consentToolVC animated:YES completion:nil];```
 
 * In order to receive a callback when close or done button is tapped, you may use implement `CMPConsentViewControllerDelegate` that is `didReceiveConsentString` listener, otherwise pass null as the third parameter to `openCMPConsentToolView()`.
 * `SubjectToGdpr`, `consentString` and `cmpPresent` will be stored in UserDefaults
