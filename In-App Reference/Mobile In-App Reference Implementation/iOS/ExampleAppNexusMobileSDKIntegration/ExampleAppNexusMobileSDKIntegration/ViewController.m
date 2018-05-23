@@ -34,6 +34,9 @@
 - (IBAction)showGDPRConsentTool:(id)sender {
 
     CMPConsentViewController *consentToolVC = [[CMPConsentViewController alloc] init];
+    // Both the Android and iOS versions are implemented as a wrapper around modified Web CMP reference.
+    // Instruction on how to install and configure the WebCMP JS reference can be found inside the reference folder of this repo.
+    // This example uses a demo page setup using the same instructions.
     consentToolVC.consentToolAPI.cmpURL = @"https://acdn.adnxs.com/mobile/democmp/docs/mobilecomplete.html";
     consentToolVC.consentToolAPI.subjectToGDPR = @"1";
     consentToolVC.consentToolAPI.cmpPresent = YES;
