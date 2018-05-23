@@ -94,14 +94,14 @@ NSString *const ConsentStringQueryParam = @"code64";
         NSString *newConsentString = [self consentStringFromRequest:request];
         
         if (newConsentString.length > 0) {
-            self.consentToolAPI.consentString = newConsentString;
+            self.cmpSettings.consentString = newConsentString;
         }
         
         if ([self.delegate respondsToSelector:@selector(consentToolViewController:didReceiveConsentString:)]) {
             [self.delegate consentToolViewController:self didReceiveConsentString:newConsentString];
         }
         
-    }else  if (([request.URL.absoluteString.lowercaseString hasPrefix:httpPrefix] ||[request.URL.absoluteString.lowercaseString hasPrefix:httpsPrefix]) && ![request.URL.absoluteString.lowercaseString containsString:self.consentToolAPI.cmpURL]){
+    }else  if (([request.URL.absoluteString.lowercaseString hasPrefix:httpPrefix] ||[request.URL.absoluteString.lowercaseString hasPrefix:httpsPrefix]) && ![request.URL.absoluteString.lowercaseString containsString:self.cmpSettings.cmpURL]){
         
         if ([self.delegate respondsToSelector:@selector(consentToolViewController:didReceiveURL:)]) {
             [self.delegate consentToolViewController:self didReceiveURL:request.URL];
@@ -126,20 +126,20 @@ NSString *const ConsentStringQueryParam = @"code64";
 }
 
 -(NSURLRequest*)requestForConsentTool{
-    if (self.consentToolAPI.cmpURL.length > 0) {
-        if (self.consentToolAPI.consentString.length > 0) {
-            return [NSURLRequest requestWithURL:[self base64URLEncodedWithURL:[NSURL URLWithString:self.consentToolAPI.cmpURL] queryValue:self.consentToolAPI.consentString]];
+    if (self.cmpSettings.cmpURL.length > 0) {
+        if (self.cmpSettings.consentString.length > 0) {
+            return [NSURLRequest requestWithURL:[self base64URLEncodedWithURL:[NSURL URLWithString:self.cmpSettings.cmpURL] queryValue:self.cmpSettings.consentString]];
         }
-        return [NSURLRequest requestWithURL:[NSURL URLWithString:self.consentToolAPI.cmpURL]];
+        return [NSURLRequest requestWithURL:[NSURL URLWithString:self.cmpSettings.cmpURL]];
     }
     return nil;
 }
 
--(CMPSettings*)consentToolAPI  {
-    if (!_consentToolAPI) {
-        _consentToolAPI = [[CMPSettings alloc] init];
+-(CMPSettings*)cmpSettings  {
+    if (!_cmpSettings) {
+        _cmpSettings = [[CMPSettings alloc] init];
     }
-    return _consentToolAPI;
+    return _cmpSettings;
 }
 
 -(NSString*)consentStringFromRequest:(NSURLRequest *)request {

@@ -25,7 +25,7 @@
 /**
  Object that provides the API for storing and retrieving GDPR-related information
  */
-@property (nonatomic, retain) CMPSettings *consentToolAPI;
+@property (nonatomic, retain) CMPSettings *cmpSettings;
 
 /**
  Optional delegate to receive callbacks from the CMP web tool
