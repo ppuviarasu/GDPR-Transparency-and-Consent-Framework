@@ -133,6 +133,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void showCMP(){
         CMPStorage.setCmpPresentValue(MainActivity.this, true);
+       
+        // Both the Android and iOS versions are implemented as a wrapper around modified Web CMP reference.
+        // Instruction on how to install and configure the WebCMP JS reference can be found inside the reference folder of this repo.
         CMPSettings cmpSettings = new CMPSettings(SubjectToGdpr.CMPGDPREnabled, "http://10.6.38.101:5000/docs/mobilecomplete.html", null);
 
         CMPConsentActivity.showCMPConsentActivity(cmpSettings, MainActivity.this, new OnCloseCallback() {
