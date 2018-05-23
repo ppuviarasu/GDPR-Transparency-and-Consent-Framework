@@ -1,12 +1,12 @@
 Implementation Guide for iOS App Publishers
 
 
-`Copy  Project from the InAppCMPReference/Mobile In-App Reference Implementation/iOS/CMPReference library to your project.`
-`Open Your Xcode Project`
-`Right Click on Your Project  and Add file to your Project`
-`Select  CMPReference.xcodeproj Uncheck 'Copy Items if needed`
-`Go to Project -> General ->  Embedded Binaried`
-`Select-> CMPReference.fremework`
+*`Copy  Project from the InAppCMPReference/Mobile In-App Reference Implementation/iOS/CMPReference library to your project.`
+*`Open Your Xcode Project`
+*`Right Click on Your Project  and Add file to your Project`
+*`Select  CMPReference.xcodeproj Uncheck 'Copy Items if needed`
+*`Go to Project -> General ->  Embedded Binaried`
+*`Select-> CMPReference.fremework`
 
 * Configure the CMP Reference by providing a set of properties encapsulated in the CMPSettings object. Where:
 
