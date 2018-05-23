@@ -1,0 +1,1188 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BB67C9BB079F2D5405195A4EE60C65 /* ANGDPRSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F59C0921B2519B1171949C9B691FB64 /* ANGDPRSettings.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		029B1902BF0A989FA0F8F946E81B2B35 /* ANMRAIDContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F595DA5B02B2738C92705BDF32EB0A /* ANMRAIDContainerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		091235E9B6D6ECB2D6EB68E59C6619DF /* ANStandardAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 388233039FA31B7F539D4A808AE6A6DC /* ANStandardAd.m */; };
+		09187B138292026D14EA1AED0B067435 /* ANNativeAdRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 170D5A3C1DEB223B5B7A1425749F1A81 /* ANNativeAdRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0BB5F583F4C46221266CDF1549AD66DE /* ANMediatedAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 865E048333816FDBFD07257933F6AFA8 /* ANMediatedAd.m */; };
+		0BDF24DB0A9BC9DC893577267A55DA28 /* ANBaseAdObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E58829C88385C1D7AEB5F5007966DE26 /* ANBaseAdObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F90D3D95DEDC3D891B141200F1E7596 /* ANNativeAdResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B04D7CBE0A0D08826462EFA7CF857363 /* ANNativeAdResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		111BDFB61E04E2246817B43BF16EEDCD /* ANMRAIDJavascriptUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 96719CFC7260159C8D2907F2F23CF18F /* ANMRAIDJavascriptUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12528D2956965B48A6DFABF07CF9863C /* ANMRAIDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EE0CF8B38196D2B20597E4A6DF026 /* ANMRAIDUtil.m */; };
+		12E5F0043C181E64509529B6A56A9B51 /* ANVideoAdProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 334ABB75599E609CE8546B53370DE6EE /* ANVideoAdProcessor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		150D32EB99A29E9BB82AF6E5B07710BB /* ANBaseUrlConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = B35FDA92EE0873254803AADCE154C175 /* ANBaseUrlConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		15CE86BE1963AA4DFDD98F8446B79039 /* ANBaseAdObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF6EDDF0F1ECEF3C0B3A698B09C9CC9 /* ANBaseAdObject.m */; };
+		177DB43B1CDDED147FBC3700DF4F2410 /* ANGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 641346F9899B104FF838145888F7D346 /* ANGlobal.m */; };
+		17D62039DA4BA4CF9ED0EF2B3A48208E /* ANVideoAdPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 62BEFA2BEF03DB0130DEA5C87FF51824 /* ANVideoAdPlayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1885FEF8109E35F4CBD4338AA852D360 /* ANMRAIDResizeViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 703811885CC0F612E539CC2A0623FCDF /* ANMRAIDResizeViewManager.m */; };
+		1A4F376BBCEE3BEEB50180D58FCC666D /* ANBannerAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D378D967BFBEE53BE1DE166A86DC08 /* ANBannerAdView.m */; };
+		1A84F77D9D395F2864F6BE8DBE843FA2 /* ANInterstitialAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 518D710186963B4EC445212C752DB966 /* ANInterstitialAd.m */; };
+		20A2F99ED76A659D6B722CBFA4AF19CE /* ANMRAIDUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E065FFF42C4957374C8C0749025166B /* ANMRAIDUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		241857CE285E17D57D32AFC93BA9B03C /* ANMRAIDOrientationProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = EB75FD1B960905D0610F95CBB6C3FF92 /* ANMRAIDOrientationProperties.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		243FF2AB30061743F3AC791DBE4DCD36 /* ANInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = E7A538BD0DCA48CCAF001D542F8FF765 /* ANInterstitialAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		29ECCF81B8274CD6C10FA8A445F60F1C /* ANNativeMediatedAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A2CD246BF686B486440332C58B7ACDA /* ANNativeMediatedAdController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A4422D5FA2F8D41B5F5D3456091856F /* ANMRAIDExpandProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AF9DA34B95DECB874FD03B3432A535 /* ANMRAIDExpandProperties.m */; };
+		2AD0F2BCC9A7DB4E45AFB12E178A80D2 /* ANClickOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 77A566F09CE31ADDDAC6B1F654FACFB9 /* ANClickOverlayView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2C1DA67CA10DBF3CA0EB7142E49B8529 /* ANCSMVideoAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 07EB5F8F2BD6A4A0408690A0BEF06547 /* ANCSMVideoAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3068207376065E880D5908545D5135EA /* ANNativeAdRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F80EBEB5452F2B97FB5F84BE97E6A823 /* ANNativeAdRequest.m */; };
+		327B85A2931122F9D697A097599BE66D /* ANMediatedAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A6FE1FB0262F0A7565881D321880BC /* ANMediatedAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33FDAB8EFE1FFE95C29C83C53F0340DB /* ANUniversalTagAdServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 189BA0D8E7F7B8A9B8A16EE252FC911F /* ANUniversalTagAdServerResponse.m */; };
+		38CEA1BACF777CD96C1A5245C2E2318B /* ANMRAIDExpandProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AFDD91F154C7E1C3FB8627761D5BD0 /* ANMRAIDExpandProperties.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39A5B5365A9016AD1E653B09100633D9 /* ANNativeAdStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 490AC08254A45F3765441280671632B6 /* ANNativeAdStarRating.m */; };
+		3B405F1B59654AA0176F3032944E2F09 /* ANLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D2013610703D071785A6A637FE6D85 /* ANLogging.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40C9183585755C9822BDCB7B6C06B9EC /* ANTrackerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FBE395A4E3EFC73653E824034E219C9 /* ANTrackerManager.m */; };
+		415556F8547D9D4712FAF911A660E309 /* ANTrackerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DDCE03E86C9BF99B8DFBD0BC8AD144 /* ANTrackerManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42BB0D5E8AC833C6884A59E558089385 /* ANBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4ACAF14F7755BB0E7185014FA675F96 /* ANBrowserViewController.m */; };
+		436F8FD7C12593AB4DAEE650E59ED8D8 /* ANMRAIDResizeViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AFB9B674FBB62DEAEF3F6F01C6C4BAA /* ANMRAIDResizeViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46C653BAC361CA6ED0D95AC0576BE619 /* ANNativeAdResponse+PrivateMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = EA1485740D38C3E87EBE5234B0B1DB17 /* ANNativeAdResponse+PrivateMethods.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		494433BC3752E3797C6162FA02D596B9 /* UIView+ANCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 72180F327C876A1B294253F467FFC5A6 /* UIView+ANCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4AB7697913C8B04AC78A3D9719D2B83B /* ANMRAIDExpandViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C478DF23FFD06B187930FD0D7E9E5E /* ANMRAIDExpandViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4BD9F8E1C37A036AA4744051BBEE5EF1 /* ANGDPRSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 810C5433DD4DECEB88E6B65173039EE2 /* ANGDPRSettings.m */; };
+		4D151301062E73E3CD75C7F295F5AE3C /* ANSSMStandardAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0CED48C9F2C2A6E15EC850744FECA3 /* ANSSMStandardAd.m */; };
+		4DA08210C3B87EF57D562A84924EACF1 /* ANOpenInExternalBrowserActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E3C94DCBE3331F358BD3C709C0B921 /* ANOpenInExternalBrowserActivity.m */; };
+		52B071A735EAD892A208C6739FFBA1E1 /* ANPBContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 988C3B094E7171F979C34E370332F155 /* ANPBContainerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		548205F442514F17C2FEDFAD51C9FD85 /* ANMRAIDCalendarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96E1C7A639653D541C432AF4EA2E38D3 /* ANMRAIDCalendarManager.m */; };
+		55239399E650794566FCA1EF4073E381 /* ANPBContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 875B5BC4DC20B6F2B3DAED5E40123CE4 /* ANPBContainerView.m */; };
+		5558592C300B87F030BB0FF6A5D8B929 /* ANMRAIDCalendarManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C6D1FD596731E6FA3D46E49683DF52 /* ANMRAIDCalendarManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55C722DEE86FCB11DA4756332A47DEB6 /* ANNativeMediatedAdResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 2787D3859A850DE4D579D9E32005ADAC /* ANNativeMediatedAdResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56755BFB412BC9CA68552239580EC224 /* ANLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BCDC962C8E128AC434F858C7A2B18F /* ANLocation.m */; };
+		577E0E2EE8C747F8F3185DACC9E887CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		578EA3D4F4F75193012D9F123BBBD152 /* NSDictionary+ANCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B24B3127F4E57ED7A0BF913C35BB31E1 /* NSDictionary+ANCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		59F5783C5E516A89189B5A7E6958869F /* ANLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = BF6A704512447B2C8B016CE4008338DC /* ANLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5AF5E687672369F55A77FD4CF764C987 /* ANLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8651F01A89BEF52D2429AC01AE859E9F /* ANLogManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6271A724B1BA39EE7C1B447A54CDFF86 /* NSString+ANCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F19033F673035478CD4D09EDF881084D /* NSString+ANCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		647E4D09DA71C6A579819B8757C83788 /* ANSSMVideoAd.h in Headers */ = {isa = PBXBuildFile; fileRef = E3E228879C0D0AD8FBE0A1668D0C2275 /* ANSSMVideoAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68C0E23D3B96E03AA4C74F41E892B8CC /* ANNativeStandardAdResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 42D3D9BAB6C4A291F5136CCE7826F7A0 /* ANNativeStandardAdResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68F60DD2D7D9F0572956B994B22BBDC3 /* ANMediationAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB993C2513A63CCE29762BFDB251C19D /* ANMediationAdViewController.m */; };
+		6918811F3F43862442A2D759941A4170 /* ANTrackerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F369A2035D5AD5210E52269E5F2AC8AC /* ANTrackerInfo.m */; };
+		6955DBBCFA6C06375FB4EFB64BB9318E /* ANAdWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 32867F9D8B00A76107E10038D551E0E0 /* ANAdWebViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AC5329AAF3A41E32054C877621D1660 /* ANTargetingParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 4010E736C4D41D25C7810EE9598E7BF9 /* ANTargetingParameters.m */; };
+		6C4542AD42800FBDC7E6F4F472C91221 /* NSObject+ANCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE40C10ABACD42796961C14FFC9A1D3 /* NSObject+ANCategory.m */; };
+		6DCFE894E0140D24AEC6006953080BFC /* UIView+ANNativeAdCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB4406FEC63873820D7E503706AE7E6 /* UIView+ANNativeAdCategory.m */; };
+		6DE55FFE12045C84B877407E6E9A97E7 /* ANInterstitialAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C79023BB90F20F93D7BAC081ADBA8F /* ANInterstitialAdViewController.m */; };
+		705683506D87E89A42170EDD830CD809 /* ANMRAIDContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EA51B1878633E5BA8649AD1DEDAC59 /* ANMRAIDContainerView.m */; };
+		70B68F672EF61F2F553D515C74873708 /* ANTrackerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F41086FD7FE9E690F8A4156A9C003234 /* ANTrackerInfo.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7124309F822B0E107325FD01DA8986A7 /* ANInterstitialAdViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9ABEA1ADB782CDD5CE688A7499020D9 /* ANInterstitialAdViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72CE804DA0CDB83DD0BD0C853A84B508 /* ANMediationContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B93B397F567BA7F457F80ED6571D9A /* ANMediationContainerView.m */; };
+		7454080670EFC3BB593B83C7CA882F90 /* ANOpenInExternalBrowserActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 4220AF2071022A90A347E2AA1A372C5E /* ANOpenInExternalBrowserActivity.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		74CCCF48A1D95EDAECE09BCD6A459673 /* UIWebView+ANCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 577571A122B8D1F7407EBCCBCC228F5C /* UIWebView+ANCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7660B5EB174214678DC40A6D78BDDB02 /* ANMRAIDResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1942C70CC616A654266CC23DEDBDA5AA /* ANMRAIDResizeView.m */; };
+		77BF16B777058854E6DE2D952AF0ABAD /* ANNativeMediatedAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB0ED5AD9731C9CB2BDEAFD0B574828 /* ANNativeMediatedAdController.m */; };
+		78AECABFB27A546A3A7C840036CE936B /* ANRTBVideoAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 626617FA15BB4B6E5A035C4E9315B801 /* ANRTBVideoAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B419839B4DE32C2BF0241A98859F11D /* ANBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 665A612D6521E5346B5F252DC292E60D /* ANBrowserViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D5575DC6A2846129862636B3BD3166F /* ANInstreamVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9F0D4437D3046180EA812E72948AEF /* ANInstreamVideoAd.m */; };
+		7F6CB24203748131AD3612E34EA0A6EC /* ANVideoAdPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FA8646BB6EF324FB75308E6D91B921 /* ANVideoAdPlayer.m */; };
+		821969B7DF9F6E2DE90D4457DEDA9456 /* ANProxyViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3F46E1453558F28C78A5C1A927D363 /* ANProxyViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		827BE0D3D6A07C70BC51FC2D0108975A /* NSTimer+ANCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 567607569AE681BBF35F6947139021F7 /* NSTimer+ANCategory.m */; };
+		835768CF7C1FFFF54FA9D278640559EF /* WKWebView+ANCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A9826EAB43FFB21786681A5CB9D8F8 /* WKWebView+ANCategory.m */; };
+		83DB14BD1436BBDD64AC8B6C7B90AD1A /* UIWebView+ANCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5335E6A51D77974F0AA4D46517E6AEF3 /* UIWebView+ANCategory.m */; };
+		85C275A73A92C2B73B71C4785E62F0BF /* ANBannerAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB8B161119E987CEC581C446F3F6FA3 /* ANBannerAdView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85D6E98DD63576AC79C1326613741AA5 /* ANUniversalAdFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AA65F477E70FBC536966C6FF63D90 /* ANUniversalAdFetcher.m */; };
+		8B3AF517BD1F4405919FB14AE2FD215C /* ANAdViewInternalDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E3CC1472145263647BD184EF0D9383 /* ANAdViewInternalDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8CCEB93B939F706A9A47556D6E23B61A /* ANReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3455A3237A70D799AFA72703703DB4C8 /* ANReachability.m */; };
+		8DA20D7D38915863A709C3CA8740C479 /* ANMRAIDJavascriptUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F8649025750FAC78FB70378E891F50 /* ANMRAIDJavascriptUtil.m */; };
+		8F92D77B3512DEAA52B6CD473422F729 /* ANSDKSettings+PrivateMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 559603193ACA26E617FFF69C346DB90A /* ANSDKSettings+PrivateMethods.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		919787EE3BF315937B190634093ECE5F /* ANAdWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C44212B74DE843E983DD2C471594DD4 /* ANAdWebViewController.m */; };
+		91B29A6FC40C1528AE07163AD99BE31E /* ANBannerAdView+ANContentViewTransitions.m in Sources */ = {isa = PBXBuildFile; fileRef = FEFF9783A19673EF81CAE3A21E90A584 /* ANBannerAdView+ANContentViewTransitions.m */; };
+		93C3A7454AC46447769D81713B5D480F /* ANTargetingParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = D32912AC71A247D98B8AD46C7DAE115A /* ANTargetingParameters.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C79064270663F92D58473A0D5287F81 /* ANMediationContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 336EDD3719FB27249647781002193947 /* ANMediationContainerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F6182C7EC5D137F3E3167581D38103A /* ANNativeAdResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B8951C1E3E677C063DC9A96382F76F1A /* ANNativeAdResponse.m */; };
+		A10895A6A6DAC6DD6C93D22490FC4083 /* ANAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C1EE967AF4C590EFD5DD619210095C /* ANAdView.m */; };
+		A598CF6278AD6624012161DF9CE19737 /* ANSDKSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = E27FBB0D81188268777BCC0143A45838 /* ANSDKSettings.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A7F8385CE66EFFD524C154FC2A4577D3 /* ANProxyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA310A027C76E286693BF05F782A3E5F /* ANProxyViewController.m */; };
+		A9A8C85C38A2DB6E4FDAF747F2597D0F /* NSObject+ANCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F44D75C52F2A1F4DC41AC360138A0180 /* NSObject+ANCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB5CF101099F3C6C66B8C14345873ACA /* ANNativeAdStarRating.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F8E9A8BC6335E241749339FC512C9F /* ANNativeAdStarRating.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB931F625573225831AFD7E7DA00A39F /* NSTimer+ANCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E2F4F0E86C1913CA4BF621CCF85A65 /* NSTimer+ANCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC15C70649F805A33D6A80D2DE335261 /* ANNativeAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 03067E5A7B2C3FB2115729A9D98804E8 /* ANNativeAdDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC3873C3C1DD94BABB78DFCAD3C0810A /* ANCSMVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9B5C4C9DA5BD8FA99B89A488E503E0 /* ANCSMVideoAd.m */; };
+		AEB3ABCE67C01F7BA8BD582F8938BA2D /* ANSSMMediationAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6CBA1D88F4AF6E7A60B9CFF702F6CF /* ANSSMMediationAdViewController.m */; };
+		B0384DE640CE3E4F43D0119114815B98 /* ANRTBVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = D98E32302335DE786239AEA3EC1F8D09 /* ANRTBVideoAd.m */; };
+		B13CA14B35EB638D6EC4E3CA4F3E19AB /* Pods-ExampleAppNexusMobileSDKIntegration-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C3EF6B44B5C135DA4DA6AFED57B100 /* Pods-ExampleAppNexusMobileSDKIntegration-dummy.m */; };
+		B22F0D2B00180F6A157F8FC1B4870A4F /* ANMRAIDResizeProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FC2A29E4F466A79A37954640AF5A8A1 /* ANMRAIDResizeProperties.m */; };
+		B34CB1767BC16089240F03A8E869BD56 /* ANBannerAdView+ANContentViewTransitions.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F3A7D86BDF6F4B3FBB6BBEFF8FA51C /* ANBannerAdView+ANContentViewTransitions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4C0CCAECF3100C2C1277DE3F7840640 /* ANMRAIDResizeProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 19A9229A8575FCC3BC0F972F38C95E08 /* ANMRAIDResizeProperties.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B4CCDEB71F6E44F5C59BE4B780450499 /* ANAdFetcherResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A1897B26EDC9BD4C01780BB93767D5C8 /* ANAdFetcherResponse.m */; };
+		B79A279FC34DD08A465EE3DE58474025 /* ANLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D060CAFE9A1A406389D2355C8D28F5 /* ANLogManager.m */; };
+		BAD72E011F228BA968CA4FE39C67CF86 /* ANPBBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C0D5B71374FA66B1EF911F0BA1FE6A /* ANPBBuffer.m */; };
+		BC21624DAF83CBE8800B5B327FD2F7EF /* ANStoreProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2C7711940FE386A831FF73EF0B8CD7 /* ANStoreProductViewController.m */; };
+		BCC55C693DEE19D0713C02787A8229F9 /* ANLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CD93A0062FAD26FAE509E73140BD54 /* ANLogging.m */; };
+		BE90184D70066CDE10CC4F7431178570 /* ANStandardAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7F5D23D26C53A96D60C249F39A6C55 /* ANStandardAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFE044BE60A087ED4D452891E6FA516E /* ANSDKSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 40833289D884C448BCB6596B37B61933 /* ANSDKSettings.m */; };
+		C0667EC16A4F5AB58963D7E8D7725987 /* ANMediationAdViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FB756AF14B882950FED64DCCB9119027 /* ANMediationAdViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C168FE7855306B31F5BD4B02776B64DE /* ANUniversalAdFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D41B3B1C9F5B45559FE53639713D19C /* ANUniversalAdFetcher.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C29B6E9A8B6E737657766AA8679FF924 /* ANClickOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F69D56173A8FD7ACD937C157EBCE7 /* ANClickOverlayView.m */; };
+		C2F7B9A8E04CC40E0C05A2915F108E88 /* ANUniversalTagRequestBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 15EC71A662578738AFFAEDE8FB815616 /* ANUniversalTagRequestBuilder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C94384BA0620622A4A587EE0D83E6826 /* ANGlobal.h in Headers */ = {isa = PBXBuildFile; fileRef = A40B81748DDFAB5181A852C8FCB2930C /* ANGlobal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA068D7010000EE946FFCFE82ABD1ABC /* AppNexusSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C09EC3D5EFC8DED82A947A00CFDD60D /* AppNexusSDK-dummy.m */; };
+		CB5BD64290B330BEBFCBB4A5F3920D53 /* UIView+ANCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E38A60C81555FB79AB5F8D443B24B2 /* UIView+ANCategory.m */; };
+		CC77045ADBFB7D3562D78B176B4980AA /* ANStoreProductViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C333B3A6666D8318C61CC78432DBCEA5 /* ANStoreProductViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D0026A294A67AB8BD89084E0C0ECF5F6 /* ANMRAIDOrientationProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 311974618AC6E4347C9626EB9464F263 /* ANMRAIDOrientationProperties.m */; };
+		D01FF9A17E9889AA21D1D50F1D386AEB /* NSDictionary+ANCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A07706496D638741A22BB2D07E3371 /* NSDictionary+ANCategory.m */; };
+		D2F9E6CD95454107D5BDD5E73B64E0C1 /* ANUniversalTagAdServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AE194803DBCF789664C4DCB17F644A08 /* ANUniversalTagAdServerResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D3047D3F8AF992D0A307B0310B29BCED /* ANVideoAdProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 46572EE072416B6F0AD42C17C968B5CD /* ANVideoAdProcessor.m */; };
+		D859B3658336CDDD68FC592C221AF596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */; };
+		D8A86096EDE3E32E0D82235429289A53 /* ANAdProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6EA4C79B09B93CE3CDF32368E4CC8B /* ANAdProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8D62A6200116B855807C7A7BE92449D /* ANPBBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = CA956897824E44D117D0A7D351A58E82 /* ANPBBuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC34F25A3EB382B2A05E148CC90591CC /* ANInstreamVideoAd.h in Headers */ = {isa = PBXBuildFile; fileRef = 014E45B02A493C524EF67BA2F724443F /* ANInstreamVideoAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF173E3D503BD562D93428094CC23C50 /* ANNativeAdImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 3606A6E102F80F845194DDA18A7B9713 /* ANNativeAdImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E3AE57317EE16569710AEB8AB465C129 /* ANMRAIDResizeView.h in Headers */ = {isa = PBXBuildFile; fileRef = BC71318ACE74CE7B0BDAF75C2547447F /* ANMRAIDResizeView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E499C1DBB47AC41C208E367C5BBDD164 /* WKWebView+ANCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = C43585D4A8F9DC6264D9909E4FD1AAEE /* WKWebView+ANCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6752761B195F2D4E02642C6D7398336 /* ANAdFetcherResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D6F426168700FD7F83EC4A6A9A0865 /* ANAdFetcherResponse.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7BC68045A32D56F20B8159539FE53C6 /* ANSSMMediationAdViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4629627190D92BE67BCDEC5CBF7745C1 /* ANSSMMediationAdViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E994BB39423359AD6E93D12E31940B22 /* ANAdConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 022492A942071BFC85401CF903BA2D5E /* ANAdConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAB70251D1BB7225CF60E3BD5A6FFA4A /* ANSSMStandardAd.h in Headers */ = {isa = PBXBuildFile; fileRef = ED65957A88E06474E71D35393B3DD7B8 /* ANSSMStandardAd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EBB3C4AFF437CE1FF6FD13281ED52862 /* UIView+ANNativeAdCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A615DF89A738EEBEC3613C0C3789B8B /* UIView+ANNativeAdCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EBC14373EBCC3A7B3783BBBD3DA955CF /* ANUniversalTagRequestBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA4EFA538D5FC5BCD7DF4CFBA86981F /* ANUniversalTagRequestBuilder.m */; };
+		ED42AD998D95A212DDE40B768A449311 /* NSString+ANCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A04D15FC9456BD9E5AA690C4AEB9259 /* NSString+ANCategory.m */; };
+		ED4F63173974DF04F508498F88177601 /* ANMRAIDExpandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7284572D9A51B5FAE11CF7140D6CF25D /* ANMRAIDExpandViewController.m */; };
+		EEB25E6D72C191B6702AF9B85AB6AC56 /* ANAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 330212E489FB747188AE36A3220F239D /* ANAdView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF11B39F402292B84385BD4DDE035B79 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */; };
+		F43B74281D793051C8DEB07C26002813 /* ANNativeMediatedAdResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A2C33A87F398760CB90B26C6DBF4DD /* ANNativeMediatedAdResponse.m */; };
+		F743C39FE79850C3A5F0FCFDC79EE734 /* ANNativeAdImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F22D885A9A5682A3C560AD5C70BCD /* ANNativeAdImageCache.m */; };
+		F7B847332BCE60F3A2F8A6707ADE5520 /* ANReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 652F4EB471F5E82CD02C38823180B912 /* ANReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F95D88DB98DAD346254F8BCA130CC384 /* ANNativeCustomAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5E6A474C0E7B041A165F87A460CCE2 /* ANNativeCustomAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD9D5A17D9755E57AC587B484275EE29 /* ANANJAMImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2E24355DE36D1CB7158D5F7CF4DFEE /* ANANJAMImplementation.m */; };
+		FDFF66FAA23E259D16AE78F21E3532E6 /* ANAdView+PrivateMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 25FCE933123F39E60A5767CB188BEF01 /* ANAdView+PrivateMethods.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE3E8CE27C784C19A42059CF7CBC4FD7 /* ANCustomAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5AA8EE3B30276430DAABE71F58CBDA /* ANCustomAdapter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE4603D2030CDC20837A3AD753FB6D14 /* ANNativeStandardAdResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D36195A615BED412E42FC9A50777C /* ANNativeStandardAdResponse.m */; };
+		FF049A3065BA797671D4F2AE42C889FE /* ANSSMVideoAd.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C62F2DAC66E705C7F12CD324AF6A88 /* ANSSMVideoAd.m */; };
+		FF6ECD4DB6BA8CDE73557E24F31313B1 /* ANANJAMImplementation.h in Headers */ = {isa = PBXBuildFile; fileRef = DA0A0750960EFB57FE746801368058E6 /* ANANJAMImplementation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41B0E4DDFEB91D7417586EF77435ABB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9639C6EA3AA03FEF16EDA167BE800ED;
+			remoteInfo = AppNexusSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00CD93A0062FAD26FAE509E73140BD54 /* ANLogging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANLogging.m; path = sdk/internal/ANLogging.m; sourceTree = "<group>"; };
+		014E45B02A493C524EF67BA2F724443F /* ANInstreamVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANInstreamVideoAd.h; path = sdk/ANInstreamVideoAd.h; sourceTree = "<group>"; };
+		022492A942071BFC85401CF903BA2D5E /* ANAdConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANAdConstants.h; path = sdk/ANAdConstants.h; sourceTree = "<group>"; };
+		03067E5A7B2C3FB2115729A9D98804E8 /* ANNativeAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANNativeAdDelegate.h; path = sdk/native/ANNativeAdDelegate.h; sourceTree = "<group>"; };
+		031DD2AD442C96A8DBB57B359CB47CF1 /* ANBrowserViewController.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ANBrowserViewController.strings; path = en.lproj/ANBrowserViewController.strings; sourceTree = "<group>"; };
+		04FA8646BB6EF324FB75308E6D91B921 /* ANVideoAdPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANVideoAdPlayer.m; path = sdk/video/ANVideoAdPlayer.m; sourceTree = "<group>"; };
+		07EB5F8F2BD6A4A0408690A0BEF06547 /* ANCSMVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANCSMVideoAd.h; path = sdk/internal/ANCSMVideoAd.h; sourceTree = "<group>"; };
+		0823F82A841B93A71DAA22B2E3E04FD2 /* Pods-ExampleAppNexusMobileSDKIntegration-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleAppNexusMobileSDKIntegration-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C44212B74DE843E983DD2C471594DD4 /* ANAdWebViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANAdWebViewController.m; path = sdk/internal/ANAdWebViewController.m; sourceTree = "<group>"; };
+		0F0CED48C9F2C2A6E15EC850744FECA3 /* ANSSMStandardAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANSSMStandardAd.m; path = sdk/internal/ANSSMStandardAd.m; sourceTree = "<group>"; };
+		110C294D2E2AF04526072D9443330FB2 /* an_arrow_left@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "an_arrow_left@2x.png"; path = "sdk/Resources/images/an_arrow_left@2x.png"; sourceTree = "<group>"; };
+		11D060CAFE9A1A406389D2355C8D28F5 /* ANLogManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANLogManager.m; path = sdk/internal/ANLogManager.m; sourceTree = "<group>"; };
+		14C79023BB90F20F93D7BAC081ADBA8F /* ANInterstitialAdViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANInterstitialAdViewController.m; path = sdk/internal/ANInterstitialAdViewController.m; sourceTree = "<group>"; };
+		1572F937901CCFA11EB36D54F6528B09 /* interstitial_closebox.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = interstitial_closebox.png; path = sdk/Resources/images/interstitial_closebox.png; sourceTree = "<group>"; };
+		15EC71A662578738AFFAEDE8FB815616 /* ANUniversalTagRequestBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANUniversalTagRequestBuilder.h; path = sdk/internal/ANUniversalTagRequestBuilder.h; sourceTree = "<group>"; };
+		170D5A3C1DEB223B5B7A1425749F1A81 /* ANNativeAdRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANNativeAdRequest.h; path = sdk/native/ANNativeAdRequest.h; sourceTree = "<group>"; };
+		189BA0D8E7F7B8A9B8A16EE252FC911F /* ANUniversalTagAdServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANUniversalTagAdServerResponse.m; path = sdk/internal/ANUniversalTagAdServerResponse.m; sourceTree = "<group>"; };
+		1942C70CC616A654266CC23DEDBDA5AA /* ANMRAIDResizeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMRAIDResizeView.m; path = sdk/internal/MRAID/ANMRAIDResizeView.m; sourceTree = "<group>"; };
+		19A9229A8575FCC3BC0F972F38C95E08 /* ANMRAIDResizeProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMRAIDResizeProperties.h; path = sdk/internal/MRAID/ANMRAIDResizeProperties.h; sourceTree = "<group>"; };
+		1A04D15FC9456BD9E5AA690C4AEB9259 /* NSString+ANCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ANCategory.m"; path = "sdk/Categories/NSString+ANCategory.m"; sourceTree = "<group>"; };
+		1AB4406FEC63873820D7E503706AE7E6 /* UIView+ANNativeAdCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ANNativeAdCategory.m"; path = "sdk/native/internal/UIView+ANNativeAdCategory.m"; sourceTree = "<group>"; };
+		1B7367657E18733743835131F6EF0EC3 /* ANBrowserViewController.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ANBrowserViewController.strings; path = es.lproj/ANBrowserViewController.strings; sourceTree = "<group>"; };
+		1D34C246C10327DFA82F13297EFEEE15 /* Pods-ExampleAppNexusMobileSDKIntegration-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleAppNexusMobileSDKIntegration-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F9F22D885A9A5682A3C560AD5C70BCD /* ANNativeAdImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANNativeAdImageCache.m; path = sdk/native/internal/ANNativeAdImageCache.m; sourceTree = "<group>"; };
+		21B06B2C8A409AD4207B3839D91B367F /* ANBrowserViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ANBrowserViewController.xib; path = Base.lproj/ANBrowserViewController.xib; sourceTree = "<group>"; };
+		23F8649025750FAC78FB70378E891F50 /* ANMRAIDJavascriptUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMRAIDJavascriptUtil.m; path = sdk/internal/MRAID/ANMRAIDJavascriptUtil.m; sourceTree = "<group>"; };
+		25FCE933123F39E60A5767CB188BEF01 /* ANAdView+PrivateMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ANAdView+PrivateMethods.h"; path = "sdk/Categories/ANAdView+PrivateMethods.h"; sourceTree = "<group>"; };
+		26A07706496D638741A22BB2D07E3371 /* NSDictionary+ANCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+ANCategory.m"; path = "sdk/Categories/NSDictionary+ANCategory.m"; sourceTree = "<group>"; };
+		2787D3859A850DE4D579D9E32005ADAC /* ANNativeMediatedAdResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANNativeMediatedAdResponse.h; path = sdk/native/ANNativeMediatedAdResponse.h; sourceTree = "<group>"; };
+		299809C386E1301EA8A8F339CAAC86A4 /* interstitial_flat_closebox@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "interstitial_flat_closebox@3x.png"; path = "sdk/Resources/images/interstitial_flat_closebox@3x.png"; sourceTree = "<group>"; };
+		2B2C7711940FE386A831FF73EF0B8CD7 /* ANStoreProductViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANStoreProductViewController.m; path = sdk/internal/ANStoreProductViewController.m; sourceTree = "<group>"; };
+		2C09EC3D5EFC8DED82A947A00CFDD60D /* AppNexusSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AppNexusSDK-dummy.m"; sourceTree = "<group>"; };
+		2E32D9451A0120A4F0D20996590A38CA /* an_arrow_right@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "an_arrow_right@3x.png"; path = "sdk/Resources/images/an_arrow_right@3x.png"; sourceTree = "<group>"; };
+		2F9F0D4437D3046180EA812E72948AEF /* ANInstreamVideoAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANInstreamVideoAd.m; path = sdk/video/ANInstreamVideoAd.m; sourceTree = "<group>"; };
+		311974618AC6E4347C9626EB9464F263 /* ANMRAIDOrientationProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMRAIDOrientationProperties.m; path = sdk/internal/MRAID/ANMRAIDOrientationProperties.m; sourceTree = "<group>"; };
+		32867F9D8B00A76107E10038D551E0E0 /* ANAdWebViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANAdWebViewController.h; path = sdk/internal/ANAdWebViewController.h; sourceTree = "<group>"; };
+		330212E489FB747188AE36A3220F239D /* ANAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANAdView.h; path = sdk/ANAdView.h; sourceTree = "<group>"; };
+		334289AC816B66D4357AA4C9E15ABE7C /* Pods-ExampleAppNexusMobileSDKIntegration-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleAppNexusMobileSDKIntegration-resources.sh"; sourceTree = "<group>"; };
+		334ABB75599E609CE8546B53370DE6EE /* ANVideoAdProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANVideoAdProcessor.h; path = sdk/internal/ANVideoAdProcessor.h; sourceTree = "<group>"; };
+		336EDD3719FB27249647781002193947 /* ANMediationContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMediationContainerView.h; path = sdk/internal/ANMediationContainerView.h; sourceTree = "<group>"; };
+		3455A3237A70D799AFA72703703DB4C8 /* ANReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANReachability.m; path = sdk/internal/ANReachability.m; sourceTree = "<group>"; };
+		3606A6E102F80F845194DDA18A7B9713 /* ANNativeAdImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANNativeAdImageCache.h; path = sdk/native/internal/ANNativeAdImageCache.h; sourceTree = "<group>"; };
+		388233039FA31B7F539D4A808AE6A6DC /* ANStandardAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANStandardAd.m; path = sdk/internal/ANStandardAd.m; sourceTree = "<group>"; };
+		39C383F3172D00551D30ACC45C93CCDF /* ANInterstitialAdViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ANInterstitialAdViewController.xib; path = sdk/Resources/ANInterstitialAdViewController.xib; sourceTree = "<group>"; };
+		3D2AA65F477E70FBC536966C6FF63D90 /* ANUniversalAdFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANUniversalAdFetcher.m; path = sdk/internal/ANUniversalAdFetcher.m; sourceTree = "<group>"; };
+		4010E736C4D41D25C7810EE9598E7BF9 /* ANTargetingParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANTargetingParameters.m; path = sdk/internal/ANTargetingParameters.m; sourceTree = "<group>"; };
+		403DF8D504122AFD95A5C69546D33B12 /* Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig"; sourceTree = "<group>"; };
+		40833289D884C448BCB6596B37B61933 /* ANSDKSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANSDKSettings.m; path = sdk/internal/config/ANSDKSettings.m; sourceTree = "<group>"; };
+		4206D516039DC31684E18287679F9BCF /* anjam.js */ = {isa = PBXFileReference; includeInIndex = 1; name = anjam.js; path = sdk/Resources/anjam.js; sourceTree = "<group>"; };
+		4220AF2071022A90A347E2AA1A372C5E /* ANOpenInExternalBrowserActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANOpenInExternalBrowserActivity.h; path = sdk/internal/ANOpenInExternalBrowserActivity.h; sourceTree = "<group>"; };
+		42D3D9BAB6C4A291F5136CCE7826F7A0 /* ANNativeStandardAdResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANNativeStandardAdResponse.h; path = sdk/native/internal/ANNativeStandardAdResponse.h; sourceTree = "<group>"; };
+		4629627190D92BE67BCDEC5CBF7745C1 /* ANSSMMediationAdViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSSMMediationAdViewController.h; path = sdk/internal/ANSSMMediationAdViewController.h; sourceTree = "<group>"; };
+		46572EE072416B6F0AD42C17C968B5CD /* ANVideoAdProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANVideoAdProcessor.m; path = sdk/internal/ANVideoAdProcessor.m; sourceTree = "<group>"; };
+		46C62F2DAC66E705C7F12CD324AF6A88 /* ANSSMVideoAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANSSMVideoAd.m; path = sdk/internal/ANSSMVideoAd.m; sourceTree = "<group>"; };
+		490AC08254A45F3765441280671632B6 /* ANNativeAdStarRating.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANNativeAdStarRating.m; path = sdk/native/internal/ANNativeAdStarRating.m; sourceTree = "<group>"; };
+		4A3A642F03CC13C023F8E2A0BF08489D /* AppNexusSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AppNexusSDK-prefix.pch"; sourceTree = "<group>"; };
+		4D41B3B1C9F5B45559FE53639713D19C /* ANUniversalAdFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANUniversalAdFetcher.h; path = sdk/internal/ANUniversalAdFetcher.h; sourceTree = "<group>"; };
+		4DB8B161119E987CEC581C446F3F6FA3 /* ANBannerAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANBannerAdView.h; path = sdk/ANBannerAdView.h; sourceTree = "<group>"; };
+		4F59C0921B2519B1171949C9B691FB64 /* ANGDPRSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANGDPRSettings.h; path = sdk/ANGDPRSettings.h; sourceTree = "<group>"; };
+		518D710186963B4EC445212C752DB966 /* ANInterstitialAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANInterstitialAd.m; path = sdk/internal/ANInterstitialAd.m; sourceTree = "<group>"; };
+		5335E6A51D77974F0AA4D46517E6AEF3 /* UIWebView+ANCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+ANCategory.m"; path = "sdk/Categories/UIWebView+ANCategory.m"; sourceTree = "<group>"; };
+		559603193ACA26E617FFF69C346DB90A /* ANSDKSettings+PrivateMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ANSDKSettings+PrivateMethods.h"; path = "sdk/internal/config/ANSDKSettings+PrivateMethods.h"; sourceTree = "<group>"; };
+		567607569AE681BBF35F6947139021F7 /* NSTimer+ANCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+ANCategory.m"; path = "sdk/Categories/NSTimer+ANCategory.m"; sourceTree = "<group>"; };
+		569EE0CF8B38196D2B20597E4A6DF026 /* ANMRAIDUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMRAIDUtil.m; path = sdk/internal/MRAID/ANMRAIDUtil.m; sourceTree = "<group>"; };
+		56F9CD5F5FF5E4042A2A9B2A6F6BF459 /* UIButtonBarArrowLeft@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIButtonBarArrowLeft@2x.png"; path = "sdk/Resources/images/UIButtonBarArrowLeft@2x.png"; sourceTree = "<group>"; };
+		577571A122B8D1F7407EBCCBCC228F5C /* UIWebView+ANCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+ANCategory.h"; path = "sdk/Categories/UIWebView+ANCategory.h"; sourceTree = "<group>"; };
+		57B8AAF068B5EB30A1A14E09BF78C400 /* sdkjs.js */ = {isa = PBXFileReference; includeInIndex = 1; name = sdkjs.js; path = sdk/Resources/sdkjs.js; sourceTree = "<group>"; };
+		5951C7AE1C9C101D39CBF947F4CBA9B7 /* UIButtonBarArrowRight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = UIButtonBarArrowRight.png; path = sdk/Resources/images/UIButtonBarArrowRight.png; sourceTree = "<group>"; };
+		596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A2CD246BF686B486440332C58B7ACDA /* ANNativeMediatedAdController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANNativeMediatedAdController.h; path = sdk/native/internal/ANNativeMediatedAdController.h; sourceTree = "<group>"; };
+		5A615DF89A738EEBEC3613C0C3789B8B /* UIView+ANNativeAdCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ANNativeAdCategory.h"; path = "sdk/native/internal/UIView+ANNativeAdCategory.h"; sourceTree = "<group>"; };
+		5AFB9B674FBB62DEAEF3F6F01C6C4BAA /* ANMRAIDResizeViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMRAIDResizeViewManager.h; path = sdk/internal/MRAID/ANMRAIDResizeViewManager.h; sourceTree = "<group>"; };
+		5D5AA8EE3B30276430DAABE71F58CBDA /* ANCustomAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANCustomAdapter.h; path = sdk/ANCustomAdapter.h; sourceTree = "<group>"; };
+		5FC2A29E4F466A79A37954640AF5A8A1 /* ANMRAIDResizeProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMRAIDResizeProperties.m; path = sdk/internal/MRAID/ANMRAIDResizeProperties.m; sourceTree = "<group>"; };
+		607F69D56173A8FD7ACD937C157EBCE7 /* ANClickOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANClickOverlayView.m; path = sdk/internal/ANClickOverlayView.m; sourceTree = "<group>"; };
+		60D378D967BFBEE53BE1DE166A86DC08 /* ANBannerAdView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANBannerAdView.m; path = sdk/internal/ANBannerAdView.m; sourceTree = "<group>"; };
+		61DB2D0B577E8EAEE8F9AAFA1BCBD0EE /* interstitial_flat_closebox.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = interstitial_flat_closebox.png; path = sdk/Resources/images/interstitial_flat_closebox.png; sourceTree = "<group>"; };
+		61E38A60C81555FB79AB5F8D443B24B2 /* UIView+ANCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ANCategory.m"; path = "sdk/Categories/UIView+ANCategory.m"; sourceTree = "<group>"; };
+		626617FA15BB4B6E5A035C4E9315B801 /* ANRTBVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANRTBVideoAd.h; path = sdk/internal/ANRTBVideoAd.h; sourceTree = "<group>"; };
+		62BEFA2BEF03DB0130DEA5C87FF51824 /* ANVideoAdPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANVideoAdPlayer.h; path = sdk/video/ANVideoAdPlayer.h; sourceTree = "<group>"; };
+		641346F9899B104FF838145888F7D346 /* ANGlobal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANGlobal.m; path = sdk/internal/ANGlobal.m; sourceTree = "<group>"; };
+		652F4EB471F5E82CD02C38823180B912 /* ANReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANReachability.h; path = sdk/internal/ANReachability.h; sourceTree = "<group>"; };
+		665A612D6521E5346B5F252DC292E60D /* ANBrowserViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANBrowserViewController.h; path = sdk/internal/ANBrowserViewController.h; sourceTree = "<group>"; };
+		66EA51B1878633E5BA8649AD1DEDAC59 /* ANMRAIDContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMRAIDContainerView.m; path = sdk/internal/MRAID/ANMRAIDContainerView.m; sourceTree = "<group>"; };
+		6A7F5D23D26C53A96D60C249F39A6C55 /* ANStandardAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANStandardAd.h; path = sdk/internal/ANStandardAd.h; sourceTree = "<group>"; };
+		6AB938181731FC676821138722A88EC4 /* ASTMediationManager.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ASTMediationManager.js; path = sdk/Resources/ASTMediationManager.js; sourceTree = "<group>"; };
+		6CE40C10ABACD42796961C14FFC9A1D3 /* NSObject+ANCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ANCategory.m"; path = "sdk/Categories/NSObject+ANCategory.m"; sourceTree = "<group>"; };
+		6E6CBA1D88F4AF6E7A60B9CFF702F6CF /* ANSSMMediationAdViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANSSMMediationAdViewController.m; path = sdk/internal/ANSSMMediationAdViewController.m; sourceTree = "<group>"; };
+		6F0AA9D57276604B801C2A76232302F6 /* appnexus_logo_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "appnexus_logo_icon@2x.png"; path = "sdk/Resources/images/appnexus_logo_icon@2x.png"; sourceTree = "<group>"; };
+		7015ABE0D7E71F93020AF6F5468C0E62 /* mraid.js */ = {isa = PBXFileReference; includeInIndex = 1; name = mraid.js; path = sdk/Resources/ANMRAID.bundle/mraid.js; sourceTree = "<group>"; };
+		703811885CC0F612E539CC2A0623FCDF /* ANMRAIDResizeViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMRAIDResizeViewManager.m; path = sdk/internal/MRAID/ANMRAIDResizeViewManager.m; sourceTree = "<group>"; };
+		72180F327C876A1B294253F467FFC5A6 /* UIView+ANCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ANCategory.h"; path = "sdk/Categories/UIView+ANCategory.h"; sourceTree = "<group>"; };
+		7284572D9A51B5FAE11CF7140D6CF25D /* ANMRAIDExpandViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMRAIDExpandViewController.m; path = sdk/internal/MRAID/ANMRAIDExpandViewController.m; sourceTree = "<group>"; };
+		72B93B397F567BA7F457F80ED6571D9A /* ANMediationContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMediationContainerView.m; path = sdk/internal/ANMediationContainerView.m; sourceTree = "<group>"; };
+		72BA870F8400159AA1A5F41B3473CD3E /* libPods-ExampleAppNexusMobileSDKIntegration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleAppNexusMobileSDKIntegration.a"; path = "libPods-ExampleAppNexusMobileSDKIntegration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BCDC962C8E128AC434F858C7A2B18F /* ANLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANLocation.m; path = sdk/internal/ANLocation.m; sourceTree = "<group>"; };
+		744391F94F55A52354A8E1923766CD1A /* compass.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = compass.png; path = sdk/Resources/images/compass.png; sourceTree = "<group>"; };
+		74AF9DA34B95DECB874FD03B3432A535 /* ANMRAIDExpandProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMRAIDExpandProperties.m; path = sdk/internal/MRAID/ANMRAIDExpandProperties.m; sourceTree = "<group>"; };
+		7694D593876D006B5775A8B6C4B32B51 /* vastVideo.html */ = {isa = PBXFileReference; includeInIndex = 1; name = vastVideo.html; path = sdk/Resources/vastVideo.html; sourceTree = "<group>"; };
+		77A566F09CE31ADDDAC6B1F654FACFB9 /* ANClickOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANClickOverlayView.h; path = sdk/internal/ANClickOverlayView.h; sourceTree = "<group>"; };
+		77C478DF23FFD06B187930FD0D7E9E5E /* ANMRAIDExpandViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMRAIDExpandViewController.h; path = sdk/internal/MRAID/ANMRAIDExpandViewController.h; sourceTree = "<group>"; };
+		7978C802D797913D57552AC1A5D4EDA7 /* Pods-ExampleAppNexusMobileSDKIntegration-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleAppNexusMobileSDKIntegration-frameworks.sh"; sourceTree = "<group>"; };
+		7979F6AB3F79AC67F4AEF363854ADEF3 /* ANBrowserViewController_SizeClasses.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ANBrowserViewController_SizeClasses.strings; path = de.lproj/ANBrowserViewController_SizeClasses.strings; sourceTree = "<group>"; };
+		7E8528F54FE73BC9F8AAC83C809264FC /* ANBrowserViewController_SizeClasses.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ANBrowserViewController_SizeClasses.strings; path = es.lproj/ANBrowserViewController_SizeClasses.strings; sourceTree = "<group>"; };
+		7FBE395A4E3EFC73653E824034E219C9 /* ANTrackerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANTrackerManager.m; path = sdk/internal/ANTrackerManager.m; sourceTree = "<group>"; };
+		80C6D1FD596731E6FA3D46E49683DF52 /* ANMRAIDCalendarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMRAIDCalendarManager.h; path = sdk/internal/MRAID/ANMRAIDCalendarManager.h; sourceTree = "<group>"; };
+		810C5433DD4DECEB88E6B65173039EE2 /* ANGDPRSettings.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANGDPRSettings.m; path = sdk/internal/config/ANGDPRSettings.m; sourceTree = "<group>"; };
+		84E3270238096996AF41933BC377E5B6 /* ANBrowserViewController_SizeClasses.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ANBrowserViewController_SizeClasses.xib; path = Base.lproj/ANBrowserViewController_SizeClasses.xib; sourceTree = "<group>"; };
+		8651F01A89BEF52D2429AC01AE859E9F /* ANLogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANLogManager.h; path = sdk/ANLogManager.h; sourceTree = "<group>"; };
+		865E048333816FDBFD07257933F6AFA8 /* ANMediatedAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMediatedAd.m; path = sdk/internal/ANMediatedAd.m; sourceTree = "<group>"; };
+		86F8E9A8BC6335E241749339FC512C9F /* ANNativeAdStarRating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANNativeAdStarRating.h; path = sdk/native/ANNativeAdStarRating.h; sourceTree = "<group>"; };
+		875B5BC4DC20B6F2B3DAED5E40123CE4 /* ANPBContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANPBContainerView.m; path = sdk/internal/ANPBContainerView.m; sourceTree = "<group>"; };
+		88A6FE1FB0262F0A7565881D321880BC /* ANMediatedAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMediatedAd.h; path = sdk/internal/ANMediatedAd.h; sourceTree = "<group>"; };
+		88D2013610703D071785A6A637FE6D85 /* ANLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANLogging.h; path = sdk/internal/ANLogging.h; sourceTree = "<group>"; };
+		899E49841BB0775473BC1923B5A6BCF8 /* compass@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "compass@3x.png"; path = "sdk/Resources/images/compass@3x.png"; sourceTree = "<group>"; };
+		8ECE56C323DF1BE4229A6DAC49B1DECA /* appnexus_logo_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = appnexus_logo_icon.png; path = sdk/Resources/images/appnexus_logo_icon.png; sourceTree = "<group>"; };
+		8F9B5C4C9DA5BD8FA99B89A488E503E0 /* ANCSMVideoAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANCSMVideoAd.m; path = sdk/internal/ANCSMVideoAd.m; sourceTree = "<group>"; };
+		91E2F4F0E86C1913CA4BF621CCF85A65 /* NSTimer+ANCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+ANCategory.h"; path = "sdk/Categories/NSTimer+ANCategory.h"; sourceTree = "<group>"; };
+		92B3B008A0FBB16D7CDB79010FC01762 /* an_arrow_right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "an_arrow_right@2x.png"; path = "sdk/Resources/images/an_arrow_right@2x.png"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96719CFC7260159C8D2907F2F23CF18F /* ANMRAIDJavascriptUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMRAIDJavascriptUtil.h; path = sdk/internal/MRAID/ANMRAIDJavascriptUtil.h; sourceTree = "<group>"; };
+		96E1C7A639653D541C432AF4EA2E38D3 /* ANMRAIDCalendarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMRAIDCalendarManager.m; path = sdk/internal/MRAID/ANMRAIDCalendarManager.m; sourceTree = "<group>"; };
+		988C3B094E7171F979C34E370332F155 /* ANPBContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANPBContainerView.h; path = sdk/internal/ANPBContainerView.h; sourceTree = "<group>"; };
+		9B3F46E1453558F28C78A5C1A927D363 /* ANProxyViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANProxyViewController.h; path = sdk/internal/ANProxyViewController.h; sourceTree = "<group>"; };
+		9DFE9D07DCE623DBA800271BE4F7E390 /* ANBrowserViewController_SizeClasses.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ANBrowserViewController_SizeClasses.strings; path = en.lproj/ANBrowserViewController_SizeClasses.strings; sourceTree = "<group>"; };
+		9E065FFF42C4957374C8C0749025166B /* ANMRAIDUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMRAIDUtil.h; path = sdk/internal/MRAID/ANMRAIDUtil.h; sourceTree = "<group>"; };
+		A1897B26EDC9BD4C01780BB93767D5C8 /* ANAdFetcherResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANAdFetcherResponse.m; path = sdk/internal/ANAdFetcherResponse.m; sourceTree = "<group>"; };
+		A3DDCE03E86C9BF99B8DFBD0BC8AD144 /* ANTrackerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANTrackerManager.h; path = sdk/internal/ANTrackerManager.h; sourceTree = "<group>"; };
+		A40B81748DDFAB5181A852C8FCB2930C /* ANGlobal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANGlobal.h; path = sdk/internal/ANGlobal.h; sourceTree = "<group>"; };
+		A7022B752FC599729DF0562BB4455F9F /* an_arrow_left.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = an_arrow_left.png; path = sdk/Resources/images/an_arrow_left.png; sourceTree = "<group>"; };
+		A95EE8518FC9A98F057E65D208067BA0 /* an_arrow_left@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "an_arrow_left@3x.png"; path = "sdk/Resources/images/an_arrow_left@3x.png"; sourceTree = "<group>"; };
+		A9ABEA1ADB782CDD5CE688A7499020D9 /* ANInterstitialAdViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANInterstitialAdViewController.h; path = sdk/internal/ANInterstitialAdViewController.h; sourceTree = "<group>"; };
+		A9F0CFDC3365C18C8F7387C1F5D199A2 /* libAppNexusSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAppNexusSDK.a; path = libAppNexusSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB993C2513A63CCE29762BFDB251C19D /* ANMediationAdViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANMediationAdViewController.m; path = sdk/internal/ANMediationAdViewController.m; sourceTree = "<group>"; };
+		ABB0ED5AD9731C9CB2BDEAFD0B574828 /* ANNativeMediatedAdController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANNativeMediatedAdController.m; path = sdk/native/internal/ANNativeMediatedAdController.m; sourceTree = "<group>"; };
+		AC2E24355DE36D1CB7158D5F7CF4DFEE /* ANANJAMImplementation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANANJAMImplementation.m; path = sdk/internal/ANANJAMImplementation.m; sourceTree = "<group>"; };
+		ACB53747C2BCBC4832D49AA6F0C73731 /* UIButtonBarArrowLeft.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = UIButtonBarArrowLeft.png; path = sdk/Resources/images/UIButtonBarArrowLeft.png; sourceTree = "<group>"; };
+		ACCD00F275D017CC77E02B31F2FCFCBF /* interstitial_flat_closebox@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "interstitial_flat_closebox@2x.png"; path = "sdk/Resources/images/interstitial_flat_closebox@2x.png"; sourceTree = "<group>"; };
+		AE194803DBCF789664C4DCB17F644A08 /* ANUniversalTagAdServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANUniversalTagAdServerResponse.h; path = sdk/internal/ANUniversalTagAdServerResponse.h; sourceTree = "<group>"; };
+		AEF6EDDF0F1ECEF3C0B3A698B09C9CC9 /* ANBaseAdObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANBaseAdObject.m; path = sdk/internal/ANBaseAdObject.m; sourceTree = "<group>"; };
+		B04D7CBE0A0D08826462EFA7CF857363 /* ANNativeAdResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANNativeAdResponse.h; path = sdk/native/ANNativeAdResponse.h; sourceTree = "<group>"; };
+		B0C3EF6B44B5C135DA4DA6AFED57B100 /* Pods-ExampleAppNexusMobileSDKIntegration-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleAppNexusMobileSDKIntegration-dummy.m"; sourceTree = "<group>"; };
+		B1F3A7D86BDF6F4B3FBB6BBEFF8FA51C /* ANBannerAdView+ANContentViewTransitions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ANBannerAdView+ANContentViewTransitions.h"; path = "sdk/Categories/ANBannerAdView+ANContentViewTransitions.h"; sourceTree = "<group>"; };
+		B24B3127F4E57ED7A0BF913C35BB31E1 /* NSDictionary+ANCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ANCategory.h"; path = "sdk/Categories/NSDictionary+ANCategory.h"; sourceTree = "<group>"; };
+		B35FDA92EE0873254803AADCE154C175 /* ANBaseUrlConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANBaseUrlConfig.h; path = sdk/internal/config/ANBaseUrlConfig.h; sourceTree = "<group>"; };
+		B688C400FDFEAE87C17ECFDC161BB984 /* MobileVastPlayer.js */ = {isa = PBXFileReference; includeInIndex = 1; name = MobileVastPlayer.js; path = sdk/Resources/MobileVastPlayer.js; sourceTree = "<group>"; };
+		B6A9826EAB43FFB21786681A5CB9D8F8 /* WKWebView+ANCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+ANCategory.m"; path = "sdk/Categories/WKWebView+ANCategory.m"; sourceTree = "<group>"; };
+		B8951C1E3E677C063DC9A96382F76F1A /* ANNativeAdResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANNativeAdResponse.m; path = sdk/native/internal/ANNativeAdResponse.m; sourceTree = "<group>"; };
+		B93BCACCB0D1EC104B7FBE06A4D5D96B /* ANBrowserViewController.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ANBrowserViewController.strings; path = de.lproj/ANBrowserViewController.strings; sourceTree = "<group>"; };
+		BB4F862C378F146D94DAEAF707BDF13D /* Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig"; sourceTree = "<group>"; };
+		BC71318ACE74CE7B0BDAF75C2547447F /* ANMRAIDResizeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMRAIDResizeView.h; path = sdk/internal/MRAID/ANMRAIDResizeView.h; sourceTree = "<group>"; };
+		BD5E6A474C0E7B041A165F87A460CCE2 /* ANNativeCustomAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANNativeCustomAdapter.h; path = sdk/native/ANNativeCustomAdapter.h; sourceTree = "<group>"; };
+		BDA4EFA538D5FC5BCD7DF4CFBA86981F /* ANUniversalTagRequestBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANUniversalTagRequestBuilder.m; path = sdk/internal/ANUniversalTagRequestBuilder.m; sourceTree = "<group>"; };
+		BF6A704512447B2C8B016CE4008338DC /* ANLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANLocation.h; path = sdk/ANLocation.h; sourceTree = "<group>"; };
+		C03785C45E68E6B2037C329B39C4045F /* AppNexusSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppNexusSDK.xcconfig; sourceTree = "<group>"; };
+		C0498B548AD1651B3DE7AAB527ECEA9D /* ANBrowserViewController.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ANBrowserViewController.strings; path = fr.lproj/ANBrowserViewController.strings; sourceTree = "<group>"; };
+		C333B3A6666D8318C61CC78432DBCEA5 /* ANStoreProductViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANStoreProductViewController.h; path = sdk/internal/ANStoreProductViewController.h; sourceTree = "<group>"; };
+		C43585D4A8F9DC6264D9909E4FD1AAEE /* WKWebView+ANCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+ANCategory.h"; path = "sdk/Categories/WKWebView+ANCategory.h"; sourceTree = "<group>"; };
+		C4A1B32E169F21592E05365E891E6EFF /* ANBrowserViewController_SizeClasses.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ANBrowserViewController_SizeClasses.strings; path = fr.lproj/ANBrowserViewController_SizeClasses.strings; sourceTree = "<group>"; };
+		CA956897824E44D117D0A7D351A58E82 /* ANPBBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANPBBuffer.h; path = sdk/internal/ANPBBuffer.h; sourceTree = "<group>"; };
+		D32912AC71A247D98B8AD46C7DAE115A /* ANTargetingParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANTargetingParameters.h; path = sdk/ANTargetingParameters.h; sourceTree = "<group>"; };
+		D4ACAF14F7755BB0E7185014FA675F96 /* ANBrowserViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANBrowserViewController.m; path = sdk/internal/ANBrowserViewController.m; sourceTree = "<group>"; };
+		D4E3C94DCBE3331F358BD3C709C0B921 /* ANOpenInExternalBrowserActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANOpenInExternalBrowserActivity.m; path = sdk/internal/ANOpenInExternalBrowserActivity.m; sourceTree = "<group>"; };
+		D4F06B96807EEFB5D6140D4D67ACCC49 /* interstitial_closebox@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "interstitial_closebox@2x.png"; path = "sdk/Resources/images/interstitial_closebox@2x.png"; sourceTree = "<group>"; };
+		D4F595DA5B02B2738C92705BDF32EB0A /* ANMRAIDContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMRAIDContainerView.h; path = sdk/internal/MRAID/ANMRAIDContainerView.h; sourceTree = "<group>"; };
+		D6C1EE967AF4C590EFD5DD619210095C /* ANAdView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANAdView.m; path = sdk/internal/ANAdView.m; sourceTree = "<group>"; };
+		D98E32302335DE786239AEA3EC1F8D09 /* ANRTBVideoAd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANRTBVideoAd.m; path = sdk/internal/ANRTBVideoAd.m; sourceTree = "<group>"; };
+		DA0A0750960EFB57FE746801368058E6 /* ANANJAMImplementation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANANJAMImplementation.h; path = sdk/internal/ANANJAMImplementation.h; sourceTree = "<group>"; };
+		DAF48452254C80704EC87D6D8092F484 /* errors.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = errors.strings; path = sdk/Resources/errors.strings; sourceTree = "<group>"; };
+		DB6EA4C79B09B93CE3CDF32368E4CC8B /* ANAdProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANAdProtocol.h; path = sdk/ANAdProtocol.h; sourceTree = "<group>"; };
+		E1A5600465FA9BDE0D575FD9CCE33925 /* ANBrowserViewController.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ANBrowserViewController.strings; path = "zh-Hans.lproj/ANBrowserViewController.strings"; sourceTree = "<group>"; };
+		E1C0D5B71374FA66B1EF911F0BA1FE6A /* ANPBBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANPBBuffer.m; path = sdk/internal/ANPBBuffer.m; sourceTree = "<group>"; };
+		E27FBB0D81188268777BCC0143A45838 /* ANSDKSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSDKSettings.h; path = sdk/ANSDKSettings.h; sourceTree = "<group>"; };
+		E2AFDD91F154C7E1C3FB8627761D5BD0 /* ANMRAIDExpandProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMRAIDExpandProperties.h; path = sdk/internal/MRAID/ANMRAIDExpandProperties.h; sourceTree = "<group>"; };
+		E3E228879C0D0AD8FBE0A1668D0C2275 /* ANSSMVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSSMVideoAd.h; path = sdk/internal/ANSSMVideoAd.h; sourceTree = "<group>"; };
+		E58829C88385C1D7AEB5F5007966DE26 /* ANBaseAdObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANBaseAdObject.h; path = sdk/internal/ANBaseAdObject.h; sourceTree = "<group>"; };
+		E5E3CC1472145263647BD184EF0D9383 /* ANAdViewInternalDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANAdViewInternalDelegate.h; path = sdk/internal/ANAdViewInternalDelegate.h; sourceTree = "<group>"; };
+		E7A538BD0DCA48CCAF001D542F8FF765 /* ANInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANInterstitialAd.h; path = sdk/ANInterstitialAd.h; sourceTree = "<group>"; };
+		EA1485740D38C3E87EBE5234B0B1DB17 /* ANNativeAdResponse+PrivateMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ANNativeAdResponse+PrivateMethods.h"; path = "sdk/native/internal/ANNativeAdResponse+PrivateMethods.h"; sourceTree = "<group>"; };
+		EB75FD1B960905D0610F95CBB6C3FF92 /* ANMRAIDOrientationProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMRAIDOrientationProperties.h; path = sdk/internal/MRAID/ANMRAIDOrientationProperties.h; sourceTree = "<group>"; };
+		ED65957A88E06474E71D35393B3DD7B8 /* ANSSMStandardAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSSMStandardAd.h; path = sdk/internal/ANSSMStandardAd.h; sourceTree = "<group>"; };
+		EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		F078991C700E18CF304E9E97DB838260 /* an_arrow_right.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = an_arrow_right.png; path = sdk/Resources/images/an_arrow_right.png; sourceTree = "<group>"; };
+		F10B5E683D15DED3BC1246828CFE908E /* UIButtonBarArrowRight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "UIButtonBarArrowRight@2x.png"; path = "sdk/Resources/images/UIButtonBarArrowRight@2x.png"; sourceTree = "<group>"; };
+		F19033F673035478CD4D09EDF881084D /* NSString+ANCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ANCategory.h"; path = "sdk/Categories/NSString+ANCategory.h"; sourceTree = "<group>"; };
+		F1D6F426168700FD7F83EC4A6A9A0865 /* ANAdFetcherResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANAdFetcherResponse.h; path = sdk/internal/ANAdFetcherResponse.h; sourceTree = "<group>"; };
+		F2A2C33A87F398760CB90B26C6DBF4DD /* ANNativeMediatedAdResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANNativeMediatedAdResponse.m; path = sdk/native/internal/ANNativeMediatedAdResponse.m; sourceTree = "<group>"; };
+		F30D051FD87F2062EFA1DA97993BD53A /* compass@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "compass@2x.png"; path = "sdk/Resources/images/compass@2x.png"; sourceTree = "<group>"; };
+		F369A2035D5AD5210E52269E5F2AC8AC /* ANTrackerInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANTrackerInfo.m; path = sdk/internal/ANTrackerInfo.m; sourceTree = "<group>"; };
+		F39312171A6747A18D243CDB4BFFACA6 /* ANBrowserViewController_SizeClasses.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = ANBrowserViewController_SizeClasses.strings; path = "zh-Hans.lproj/ANBrowserViewController_SizeClasses.strings"; sourceTree = "<group>"; };
+		F41086FD7FE9E690F8A4156A9C003234 /* ANTrackerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANTrackerInfo.h; path = sdk/internal/ANTrackerInfo.h; sourceTree = "<group>"; };
+		F44D75C52F2A1F4DC41AC360138A0180 /* NSObject+ANCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ANCategory.h"; path = "sdk/Categories/NSObject+ANCategory.h"; sourceTree = "<group>"; };
+		F50D36195A615BED412E42FC9A50777C /* ANNativeStandardAdResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANNativeStandardAdResponse.m; path = sdk/native/internal/ANNativeStandardAdResponse.m; sourceTree = "<group>"; };
+		F67E27412DDF67DA55E4D36C98D66A12 /* ANMRAID.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ANMRAID.bundle; path = sdk/Resources/ANMRAID.bundle; sourceTree = "<group>"; };
+		F80EBEB5452F2B97FB5F84BE97E6A823 /* ANNativeAdRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANNativeAdRequest.m; path = sdk/native/internal/ANNativeAdRequest.m; sourceTree = "<group>"; };
+		FA310A027C76E286693BF05F782A3E5F /* ANProxyViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ANProxyViewController.m; path = sdk/internal/ANProxyViewController.m; sourceTree = "<group>"; };
+		FB756AF14B882950FED64DCCB9119027 /* ANMediationAdViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANMediationAdViewController.h; path = sdk/internal/ANMediationAdViewController.h; sourceTree = "<group>"; };
+		FEFF9783A19673EF81CAE3A21E90A584 /* ANBannerAdView+ANContentViewTransitions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ANBannerAdView+ANContentViewTransitions.m"; path = "sdk/Categories/ANBannerAdView+ANContentViewTransitions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		065AD1535EB41782EF812AA5151165D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D859B3658336CDDD68FC592C221AF596 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DD3B3B924B4AA574E09E628C96461A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577E0E2EE8C747F8F3185DACC9E887CA /* Foundation.framework in Frameworks */,
+				EF11B39F402292B84385BD4DDE035B79 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD60235F40F4A921926BAD4E049432A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F0CFDC3365C18C8F7387C1F5D199A2 /* libAppNexusSDK.a */,
+				72BA870F8400159AA1A5F41B3473CD3E /* libPods-ExampleAppNexusMobileSDKIntegration.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353B981CE8ABC2C2D400904EBB831FBB /* Pods-ExampleAppNexusMobileSDKIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				1D34C246C10327DFA82F13297EFEEE15 /* Pods-ExampleAppNexusMobileSDKIntegration-acknowledgements.markdown */,
+				0823F82A841B93A71DAA22B2E3E04FD2 /* Pods-ExampleAppNexusMobileSDKIntegration-acknowledgements.plist */,
+				B0C3EF6B44B5C135DA4DA6AFED57B100 /* Pods-ExampleAppNexusMobileSDKIntegration-dummy.m */,
+				7978C802D797913D57552AC1A5D4EDA7 /* Pods-ExampleAppNexusMobileSDKIntegration-frameworks.sh */,
+				334289AC816B66D4357AA4C9E15ABE7C /* Pods-ExampleAppNexusMobileSDKIntegration-resources.sh */,
+				BB4F862C378F146D94DAEAF707BDF13D /* Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig */,
+				403DF8D504122AFD95A5C69546D33B12 /* Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig */,
+			);
+			name = "Pods-ExampleAppNexusMobileSDKIntegration";
+			path = "Target Support Files/Pods-ExampleAppNexusMobileSDKIntegration";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				729C424472F1E074A2EF30A6BC5F7C43 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FA7A18E43D55067DA95E0E5117F129F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7022B752FC599729DF0562BB4455F9F /* an_arrow_left.png */,
+				110C294D2E2AF04526072D9443330FB2 /* an_arrow_left@2x.png */,
+				A95EE8518FC9A98F057E65D208067BA0 /* an_arrow_left@3x.png */,
+				F078991C700E18CF304E9E97DB838260 /* an_arrow_right.png */,
+				92B3B008A0FBB16D7CDB79010FC01762 /* an_arrow_right@2x.png */,
+				2E32D9451A0120A4F0D20996590A38CA /* an_arrow_right@3x.png */,
+				B89C4B5A5211A44AD1A61FF63E40AD41 /* ANBrowserViewController.xib */,
+				84176A9011869660751BE785B294D403 /* ANBrowserViewController_SizeClasses.xib */,
+				39C383F3172D00551D30ACC45C93CCDF /* ANInterstitialAdViewController.xib */,
+				4206D516039DC31684E18287679F9BCF /* anjam.js */,
+				F67E27412DDF67DA55E4D36C98D66A12 /* ANMRAID.bundle */,
+				8ECE56C323DF1BE4229A6DAC49B1DECA /* appnexus_logo_icon.png */,
+				6F0AA9D57276604B801C2A76232302F6 /* appnexus_logo_icon@2x.png */,
+				6AB938181731FC676821138722A88EC4 /* ASTMediationManager.js */,
+				744391F94F55A52354A8E1923766CD1A /* compass.png */,
+				F30D051FD87F2062EFA1DA97993BD53A /* compass@2x.png */,
+				899E49841BB0775473BC1923B5A6BCF8 /* compass@3x.png */,
+				DAF48452254C80704EC87D6D8092F484 /* errors.strings */,
+				1572F937901CCFA11EB36D54F6528B09 /* interstitial_closebox.png */,
+				D4F06B96807EEFB5D6140D4D67ACCC49 /* interstitial_closebox@2x.png */,
+				61DB2D0B577E8EAEE8F9AAFA1BCBD0EE /* interstitial_flat_closebox.png */,
+				ACCD00F275D017CC77E02B31F2FCFCBF /* interstitial_flat_closebox@2x.png */,
+				299809C386E1301EA8A8F339CAAC86A4 /* interstitial_flat_closebox@3x.png */,
+				B688C400FDFEAE87C17ECFDC161BB984 /* MobileVastPlayer.js */,
+				7015ABE0D7E71F93020AF6F5468C0E62 /* mraid.js */,
+				57B8AAF068B5EB30A1A14E09BF78C400 /* sdkjs.js */,
+				ACB53747C2BCBC4832D49AA6F0C73731 /* UIButtonBarArrowLeft.png */,
+				56F9CD5F5FF5E4042A2A9B2A6F6BF459 /* UIButtonBarArrowLeft@2x.png */,
+				5951C7AE1C9C101D39CBF947F4CBA9B7 /* UIButtonBarArrowRight.png */,
+				F10B5E683D15DED3BC1246828CFE908E /* UIButtonBarArrowRight@2x.png */,
+				7694D593876D006B5775A8B6C4B32B51 /* vastVideo.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		729C424472F1E074A2EF30A6BC5F7C43 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				596A5E7C40FB07FDAA78D426185FA95B /* Foundation.framework */,
+				EDDB8272AF7DA52CED82F42852514AD3 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				AFFAFCEF6536C6B201F4A8212B8E026E /* Pods */,
+				2FD60235F40F4A921926BAD4E049432A /* Products */,
+				9EF129A0962BDF0DFC036A4A6B0DF61C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9EF129A0962BDF0DFC036A4A6B0DF61C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				353B981CE8ABC2C2D400904EBB831FBB /* Pods-ExampleAppNexusMobileSDKIntegration */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AFFAFCEF6536C6B201F4A8212B8E026E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAE51950380D267180D1EBCE78505698 /* AppNexusSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAE51950380D267180D1EBCE78505698 /* AppNexusSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C9643ABF93D801E1D74803844F6D7BC1 /* AppNexusSDK */,
+				FB0BB361D8FA4D08DC8853A173F449AE /* Support Files */,
+			);
+			name = AppNexusSDK;
+			path = AppNexusSDK;
+			sourceTree = "<group>";
+		};
+		C9643ABF93D801E1D74803844F6D7BC1 /* AppNexusSDK */ = {
+			isa = PBXGroup;
+			children = (
+				022492A942071BFC85401CF903BA2D5E /* ANAdConstants.h */,
+				F1D6F426168700FD7F83EC4A6A9A0865 /* ANAdFetcherResponse.h */,
+				A1897B26EDC9BD4C01780BB93767D5C8 /* ANAdFetcherResponse.m */,
+				DB6EA4C79B09B93CE3CDF32368E4CC8B /* ANAdProtocol.h */,
+				330212E489FB747188AE36A3220F239D /* ANAdView.h */,
+				D6C1EE967AF4C590EFD5DD619210095C /* ANAdView.m */,
+				25FCE933123F39E60A5767CB188BEF01 /* ANAdView+PrivateMethods.h */,
+				E5E3CC1472145263647BD184EF0D9383 /* ANAdViewInternalDelegate.h */,
+				32867F9D8B00A76107E10038D551E0E0 /* ANAdWebViewController.h */,
+				0C44212B74DE843E983DD2C471594DD4 /* ANAdWebViewController.m */,
+				DA0A0750960EFB57FE746801368058E6 /* ANANJAMImplementation.h */,
+				AC2E24355DE36D1CB7158D5F7CF4DFEE /* ANANJAMImplementation.m */,
+				4DB8B161119E987CEC581C446F3F6FA3 /* ANBannerAdView.h */,
+				60D378D967BFBEE53BE1DE166A86DC08 /* ANBannerAdView.m */,
+				B1F3A7D86BDF6F4B3FBB6BBEFF8FA51C /* ANBannerAdView+ANContentViewTransitions.h */,
+				FEFF9783A19673EF81CAE3A21E90A584 /* ANBannerAdView+ANContentViewTransitions.m */,
+				E58829C88385C1D7AEB5F5007966DE26 /* ANBaseAdObject.h */,
+				AEF6EDDF0F1ECEF3C0B3A698B09C9CC9 /* ANBaseAdObject.m */,
+				B35FDA92EE0873254803AADCE154C175 /* ANBaseUrlConfig.h */,
+				665A612D6521E5346B5F252DC292E60D /* ANBrowserViewController.h */,
+				D4ACAF14F7755BB0E7185014FA675F96 /* ANBrowserViewController.m */,
+				77A566F09CE31ADDDAC6B1F654FACFB9 /* ANClickOverlayView.h */,
+				607F69D56173A8FD7ACD937C157EBCE7 /* ANClickOverlayView.m */,
+				07EB5F8F2BD6A4A0408690A0BEF06547 /* ANCSMVideoAd.h */,
+				8F9B5C4C9DA5BD8FA99B89A488E503E0 /* ANCSMVideoAd.m */,
+				5D5AA8EE3B30276430DAABE71F58CBDA /* ANCustomAdapter.h */,
+				4F59C0921B2519B1171949C9B691FB64 /* ANGDPRSettings.h */,
+				810C5433DD4DECEB88E6B65173039EE2 /* ANGDPRSettings.m */,
+				A40B81748DDFAB5181A852C8FCB2930C /* ANGlobal.h */,
+				641346F9899B104FF838145888F7D346 /* ANGlobal.m */,
+				014E45B02A493C524EF67BA2F724443F /* ANInstreamVideoAd.h */,
+				2F9F0D4437D3046180EA812E72948AEF /* ANInstreamVideoAd.m */,
+				E7A538BD0DCA48CCAF001D542F8FF765 /* ANInterstitialAd.h */,
+				518D710186963B4EC445212C752DB966 /* ANInterstitialAd.m */,
+				A9ABEA1ADB782CDD5CE688A7499020D9 /* ANInterstitialAdViewController.h */,
+				14C79023BB90F20F93D7BAC081ADBA8F /* ANInterstitialAdViewController.m */,
+				BF6A704512447B2C8B016CE4008338DC /* ANLocation.h */,
+				72BCDC962C8E128AC434F858C7A2B18F /* ANLocation.m */,
+				88D2013610703D071785A6A637FE6D85 /* ANLogging.h */,
+				00CD93A0062FAD26FAE509E73140BD54 /* ANLogging.m */,
+				8651F01A89BEF52D2429AC01AE859E9F /* ANLogManager.h */,
+				11D060CAFE9A1A406389D2355C8D28F5 /* ANLogManager.m */,
+				88A6FE1FB0262F0A7565881D321880BC /* ANMediatedAd.h */,
+				865E048333816FDBFD07257933F6AFA8 /* ANMediatedAd.m */,
+				FB756AF14B882950FED64DCCB9119027 /* ANMediationAdViewController.h */,
+				AB993C2513A63CCE29762BFDB251C19D /* ANMediationAdViewController.m */,
+				336EDD3719FB27249647781002193947 /* ANMediationContainerView.h */,
+				72B93B397F567BA7F457F80ED6571D9A /* ANMediationContainerView.m */,
+				80C6D1FD596731E6FA3D46E49683DF52 /* ANMRAIDCalendarManager.h */,
+				96E1C7A639653D541C432AF4EA2E38D3 /* ANMRAIDCalendarManager.m */,
+				D4F595DA5B02B2738C92705BDF32EB0A /* ANMRAIDContainerView.h */,
+				66EA51B1878633E5BA8649AD1DEDAC59 /* ANMRAIDContainerView.m */,
+				E2AFDD91F154C7E1C3FB8627761D5BD0 /* ANMRAIDExpandProperties.h */,
+				74AF9DA34B95DECB874FD03B3432A535 /* ANMRAIDExpandProperties.m */,
+				77C478DF23FFD06B187930FD0D7E9E5E /* ANMRAIDExpandViewController.h */,
+				7284572D9A51B5FAE11CF7140D6CF25D /* ANMRAIDExpandViewController.m */,
+				96719CFC7260159C8D2907F2F23CF18F /* ANMRAIDJavascriptUtil.h */,
+				23F8649025750FAC78FB70378E891F50 /* ANMRAIDJavascriptUtil.m */,
+				EB75FD1B960905D0610F95CBB6C3FF92 /* ANMRAIDOrientationProperties.h */,
+				311974618AC6E4347C9626EB9464F263 /* ANMRAIDOrientationProperties.m */,
+				19A9229A8575FCC3BC0F972F38C95E08 /* ANMRAIDResizeProperties.h */,
+				5FC2A29E4F466A79A37954640AF5A8A1 /* ANMRAIDResizeProperties.m */,
+				BC71318ACE74CE7B0BDAF75C2547447F /* ANMRAIDResizeView.h */,
+				1942C70CC616A654266CC23DEDBDA5AA /* ANMRAIDResizeView.m */,
+				5AFB9B674FBB62DEAEF3F6F01C6C4BAA /* ANMRAIDResizeViewManager.h */,
+				703811885CC0F612E539CC2A0623FCDF /* ANMRAIDResizeViewManager.m */,
+				9E065FFF42C4957374C8C0749025166B /* ANMRAIDUtil.h */,
+				569EE0CF8B38196D2B20597E4A6DF026 /* ANMRAIDUtil.m */,
+				03067E5A7B2C3FB2115729A9D98804E8 /* ANNativeAdDelegate.h */,
+				3606A6E102F80F845194DDA18A7B9713 /* ANNativeAdImageCache.h */,
+				1F9F22D885A9A5682A3C560AD5C70BCD /* ANNativeAdImageCache.m */,
+				170D5A3C1DEB223B5B7A1425749F1A81 /* ANNativeAdRequest.h */,
+				F80EBEB5452F2B97FB5F84BE97E6A823 /* ANNativeAdRequest.m */,
+				B04D7CBE0A0D08826462EFA7CF857363 /* ANNativeAdResponse.h */,
+				B8951C1E3E677C063DC9A96382F76F1A /* ANNativeAdResponse.m */,
+				EA1485740D38C3E87EBE5234B0B1DB17 /* ANNativeAdResponse+PrivateMethods.h */,
+				86F8E9A8BC6335E241749339FC512C9F /* ANNativeAdStarRating.h */,
+				490AC08254A45F3765441280671632B6 /* ANNativeAdStarRating.m */,
+				BD5E6A474C0E7B041A165F87A460CCE2 /* ANNativeCustomAdapter.h */,
+				5A2CD246BF686B486440332C58B7ACDA /* ANNativeMediatedAdController.h */,
+				ABB0ED5AD9731C9CB2BDEAFD0B574828 /* ANNativeMediatedAdController.m */,
+				2787D3859A850DE4D579D9E32005ADAC /* ANNativeMediatedAdResponse.h */,
+				F2A2C33A87F398760CB90B26C6DBF4DD /* ANNativeMediatedAdResponse.m */,
+				42D3D9BAB6C4A291F5136CCE7826F7A0 /* ANNativeStandardAdResponse.h */,
+				F50D36195A615BED412E42FC9A50777C /* ANNativeStandardAdResponse.m */,
+				4220AF2071022A90A347E2AA1A372C5E /* ANOpenInExternalBrowserActivity.h */,
+				D4E3C94DCBE3331F358BD3C709C0B921 /* ANOpenInExternalBrowserActivity.m */,
+				CA956897824E44D117D0A7D351A58E82 /* ANPBBuffer.h */,
+				E1C0D5B71374FA66B1EF911F0BA1FE6A /* ANPBBuffer.m */,
+				988C3B094E7171F979C34E370332F155 /* ANPBContainerView.h */,
+				875B5BC4DC20B6F2B3DAED5E40123CE4 /* ANPBContainerView.m */,
+				9B3F46E1453558F28C78A5C1A927D363 /* ANProxyViewController.h */,
+				FA310A027C76E286693BF05F782A3E5F /* ANProxyViewController.m */,
+				652F4EB471F5E82CD02C38823180B912 /* ANReachability.h */,
+				3455A3237A70D799AFA72703703DB4C8 /* ANReachability.m */,
+				626617FA15BB4B6E5A035C4E9315B801 /* ANRTBVideoAd.h */,
+				D98E32302335DE786239AEA3EC1F8D09 /* ANRTBVideoAd.m */,
+				E27FBB0D81188268777BCC0143A45838 /* ANSDKSettings.h */,
+				40833289D884C448BCB6596B37B61933 /* ANSDKSettings.m */,
+				559603193ACA26E617FFF69C346DB90A /* ANSDKSettings+PrivateMethods.h */,
+				4629627190D92BE67BCDEC5CBF7745C1 /* ANSSMMediationAdViewController.h */,
+				6E6CBA1D88F4AF6E7A60B9CFF702F6CF /* ANSSMMediationAdViewController.m */,
+				ED65957A88E06474E71D35393B3DD7B8 /* ANSSMStandardAd.h */,
+				0F0CED48C9F2C2A6E15EC850744FECA3 /* ANSSMStandardAd.m */,
+				E3E228879C0D0AD8FBE0A1668D0C2275 /* ANSSMVideoAd.h */,
+				46C62F2DAC66E705C7F12CD324AF6A88 /* ANSSMVideoAd.m */,
+				6A7F5D23D26C53A96D60C249F39A6C55 /* ANStandardAd.h */,
+				388233039FA31B7F539D4A808AE6A6DC /* ANStandardAd.m */,
+				C333B3A6666D8318C61CC78432DBCEA5 /* ANStoreProductViewController.h */,
+				2B2C7711940FE386A831FF73EF0B8CD7 /* ANStoreProductViewController.m */,
+				D32912AC71A247D98B8AD46C7DAE115A /* ANTargetingParameters.h */,
+				4010E736C4D41D25C7810EE9598E7BF9 /* ANTargetingParameters.m */,
+				F41086FD7FE9E690F8A4156A9C003234 /* ANTrackerInfo.h */,
+				F369A2035D5AD5210E52269E5F2AC8AC /* ANTrackerInfo.m */,
+				A3DDCE03E86C9BF99B8DFBD0BC8AD144 /* ANTrackerManager.h */,
+				7FBE395A4E3EFC73653E824034E219C9 /* ANTrackerManager.m */,
+				4D41B3B1C9F5B45559FE53639713D19C /* ANUniversalAdFetcher.h */,
+				3D2AA65F477E70FBC536966C6FF63D90 /* ANUniversalAdFetcher.m */,
+				AE194803DBCF789664C4DCB17F644A08 /* ANUniversalTagAdServerResponse.h */,
+				189BA0D8E7F7B8A9B8A16EE252FC911F /* ANUniversalTagAdServerResponse.m */,
+				15EC71A662578738AFFAEDE8FB815616 /* ANUniversalTagRequestBuilder.h */,
+				BDA4EFA538D5FC5BCD7DF4CFBA86981F /* ANUniversalTagRequestBuilder.m */,
+				62BEFA2BEF03DB0130DEA5C87FF51824 /* ANVideoAdPlayer.h */,
+				04FA8646BB6EF324FB75308E6D91B921 /* ANVideoAdPlayer.m */,
+				334ABB75599E609CE8546B53370DE6EE /* ANVideoAdProcessor.h */,
+				46572EE072416B6F0AD42C17C968B5CD /* ANVideoAdProcessor.m */,
+				B24B3127F4E57ED7A0BF913C35BB31E1 /* NSDictionary+ANCategory.h */,
+				26A07706496D638741A22BB2D07E3371 /* NSDictionary+ANCategory.m */,
+				F44D75C52F2A1F4DC41AC360138A0180 /* NSObject+ANCategory.h */,
+				6CE40C10ABACD42796961C14FFC9A1D3 /* NSObject+ANCategory.m */,
+				F19033F673035478CD4D09EDF881084D /* NSString+ANCategory.h */,
+				1A04D15FC9456BD9E5AA690C4AEB9259 /* NSString+ANCategory.m */,
+				91E2F4F0E86C1913CA4BF621CCF85A65 /* NSTimer+ANCategory.h */,
+				567607569AE681BBF35F6947139021F7 /* NSTimer+ANCategory.m */,
+				72180F327C876A1B294253F467FFC5A6 /* UIView+ANCategory.h */,
+				61E38A60C81555FB79AB5F8D443B24B2 /* UIView+ANCategory.m */,
+				5A615DF89A738EEBEC3613C0C3789B8B /* UIView+ANNativeAdCategory.h */,
+				1AB4406FEC63873820D7E503706AE7E6 /* UIView+ANNativeAdCategory.m */,
+				577571A122B8D1F7407EBCCBCC228F5C /* UIWebView+ANCategory.h */,
+				5335E6A51D77974F0AA4D46517E6AEF3 /* UIWebView+ANCategory.m */,
+				C43585D4A8F9DC6264D9909E4FD1AAEE /* WKWebView+ANCategory.h */,
+				B6A9826EAB43FFB21786681A5CB9D8F8 /* WKWebView+ANCategory.m */,
+				6FA7A18E43D55067DA95E0E5117F129F /* Resources */,
+			);
+			name = AppNexusSDK;
+			sourceTree = "<group>";
+		};
+		FB0BB361D8FA4D08DC8853A173F449AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C03785C45E68E6B2037C329B39C4045F /* AppNexusSDK.xcconfig */,
+				2C09EC3D5EFC8DED82A947A00CFDD60D /* AppNexusSDK-dummy.m */,
+				4A3A642F03CC13C023F8E2A0BF08489D /* AppNexusSDK-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppNexusSDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BDA01B50612B782460620DDE6028AC75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E994BB39423359AD6E93D12E31940B22 /* ANAdConstants.h in Headers */,
+				E6752761B195F2D4E02642C6D7398336 /* ANAdFetcherResponse.h in Headers */,
+				D8A86096EDE3E32E0D82235429289A53 /* ANAdProtocol.h in Headers */,
+				FDFF66FAA23E259D16AE78F21E3532E6 /* ANAdView+PrivateMethods.h in Headers */,
+				EEB25E6D72C191B6702AF9B85AB6AC56 /* ANAdView.h in Headers */,
+				8B3AF517BD1F4405919FB14AE2FD215C /* ANAdViewInternalDelegate.h in Headers */,
+				6955DBBCFA6C06375FB4EFB64BB9318E /* ANAdWebViewController.h in Headers */,
+				FF6ECD4DB6BA8CDE73557E24F31313B1 /* ANANJAMImplementation.h in Headers */,
+				B34CB1767BC16089240F03A8E869BD56 /* ANBannerAdView+ANContentViewTransitions.h in Headers */,
+				85C275A73A92C2B73B71C4785E62F0BF /* ANBannerAdView.h in Headers */,
+				0BDF24DB0A9BC9DC893577267A55DA28 /* ANBaseAdObject.h in Headers */,
+				150D32EB99A29E9BB82AF6E5B07710BB /* ANBaseUrlConfig.h in Headers */,
+				7B419839B4DE32C2BF0241A98859F11D /* ANBrowserViewController.h in Headers */,
+				2AD0F2BCC9A7DB4E45AFB12E178A80D2 /* ANClickOverlayView.h in Headers */,
+				2C1DA67CA10DBF3CA0EB7142E49B8529 /* ANCSMVideoAd.h in Headers */,
+				FE3E8CE27C784C19A42059CF7CBC4FD7 /* ANCustomAdapter.h in Headers */,
+				01BB67C9BB079F2D5405195A4EE60C65 /* ANGDPRSettings.h in Headers */,
+				C94384BA0620622A4A587EE0D83E6826 /* ANGlobal.h in Headers */,
+				DC34F25A3EB382B2A05E148CC90591CC /* ANInstreamVideoAd.h in Headers */,
+				243FF2AB30061743F3AC791DBE4DCD36 /* ANInterstitialAd.h in Headers */,
+				7124309F822B0E107325FD01DA8986A7 /* ANInterstitialAdViewController.h in Headers */,
+				59F5783C5E516A89189B5A7E6958869F /* ANLocation.h in Headers */,
+				3B405F1B59654AA0176F3032944E2F09 /* ANLogging.h in Headers */,
+				5AF5E687672369F55A77FD4CF764C987 /* ANLogManager.h in Headers */,
+				327B85A2931122F9D697A097599BE66D /* ANMediatedAd.h in Headers */,
+				C0667EC16A4F5AB58963D7E8D7725987 /* ANMediationAdViewController.h in Headers */,
+				9C79064270663F92D58473A0D5287F81 /* ANMediationContainerView.h in Headers */,
+				5558592C300B87F030BB0FF6A5D8B929 /* ANMRAIDCalendarManager.h in Headers */,
+				029B1902BF0A989FA0F8F946E81B2B35 /* ANMRAIDContainerView.h in Headers */,
+				38CEA1BACF777CD96C1A5245C2E2318B /* ANMRAIDExpandProperties.h in Headers */,
+				4AB7697913C8B04AC78A3D9719D2B83B /* ANMRAIDExpandViewController.h in Headers */,
+				111BDFB61E04E2246817B43BF16EEDCD /* ANMRAIDJavascriptUtil.h in Headers */,
+				241857CE285E17D57D32AFC93BA9B03C /* ANMRAIDOrientationProperties.h in Headers */,
+				B4C0CCAECF3100C2C1277DE3F7840640 /* ANMRAIDResizeProperties.h in Headers */,
+				E3AE57317EE16569710AEB8AB465C129 /* ANMRAIDResizeView.h in Headers */,
+				436F8FD7C12593AB4DAEE650E59ED8D8 /* ANMRAIDResizeViewManager.h in Headers */,
+				20A2F99ED76A659D6B722CBFA4AF19CE /* ANMRAIDUtil.h in Headers */,
+				AC15C70649F805A33D6A80D2DE335261 /* ANNativeAdDelegate.h in Headers */,
+				DF173E3D503BD562D93428094CC23C50 /* ANNativeAdImageCache.h in Headers */,
+				09187B138292026D14EA1AED0B067435 /* ANNativeAdRequest.h in Headers */,
+				46C653BAC361CA6ED0D95AC0576BE619 /* ANNativeAdResponse+PrivateMethods.h in Headers */,
+				0F90D3D95DEDC3D891B141200F1E7596 /* ANNativeAdResponse.h in Headers */,
+				AB5CF101099F3C6C66B8C14345873ACA /* ANNativeAdStarRating.h in Headers */,
+				F95D88DB98DAD346254F8BCA130CC384 /* ANNativeCustomAdapter.h in Headers */,
+				29ECCF81B8274CD6C10FA8A445F60F1C /* ANNativeMediatedAdController.h in Headers */,
+				55C722DEE86FCB11DA4756332A47DEB6 /* ANNativeMediatedAdResponse.h in Headers */,
+				68C0E23D3B96E03AA4C74F41E892B8CC /* ANNativeStandardAdResponse.h in Headers */,
+				7454080670EFC3BB593B83C7CA882F90 /* ANOpenInExternalBrowserActivity.h in Headers */,
+				D8D62A6200116B855807C7A7BE92449D /* ANPBBuffer.h in Headers */,
+				52B071A735EAD892A208C6739FFBA1E1 /* ANPBContainerView.h in Headers */,
+				821969B7DF9F6E2DE90D4457DEDA9456 /* ANProxyViewController.h in Headers */,
+				F7B847332BCE60F3A2F8A6707ADE5520 /* ANReachability.h in Headers */,
+				78AECABFB27A546A3A7C840036CE936B /* ANRTBVideoAd.h in Headers */,
+				8F92D77B3512DEAA52B6CD473422F729 /* ANSDKSettings+PrivateMethods.h in Headers */,
+				A598CF6278AD6624012161DF9CE19737 /* ANSDKSettings.h in Headers */,
+				E7BC68045A32D56F20B8159539FE53C6 /* ANSSMMediationAdViewController.h in Headers */,
+				EAB70251D1BB7225CF60E3BD5A6FFA4A /* ANSSMStandardAd.h in Headers */,
+				647E4D09DA71C6A579819B8757C83788 /* ANSSMVideoAd.h in Headers */,
+				BE90184D70066CDE10CC4F7431178570 /* ANStandardAd.h in Headers */,
+				CC77045ADBFB7D3562D78B176B4980AA /* ANStoreProductViewController.h in Headers */,
+				93C3A7454AC46447769D81713B5D480F /* ANTargetingParameters.h in Headers */,
+				70B68F672EF61F2F553D515C74873708 /* ANTrackerInfo.h in Headers */,
+				415556F8547D9D4712FAF911A660E309 /* ANTrackerManager.h in Headers */,
+				C168FE7855306B31F5BD4B02776B64DE /* ANUniversalAdFetcher.h in Headers */,
+				D2F9E6CD95454107D5BDD5E73B64E0C1 /* ANUniversalTagAdServerResponse.h in Headers */,
+				C2F7B9A8E04CC40E0C05A2915F108E88 /* ANUniversalTagRequestBuilder.h in Headers */,
+				17D62039DA4BA4CF9ED0EF2B3A48208E /* ANVideoAdPlayer.h in Headers */,
+				12E5F0043C181E64509529B6A56A9B51 /* ANVideoAdProcessor.h in Headers */,
+				578EA3D4F4F75193012D9F123BBBD152 /* NSDictionary+ANCategory.h in Headers */,
+				A9A8C85C38A2DB6E4FDAF747F2597D0F /* NSObject+ANCategory.h in Headers */,
+				6271A724B1BA39EE7C1B447A54CDFF86 /* NSString+ANCategory.h in Headers */,
+				AB931F625573225831AFD7E7DA00A39F /* NSTimer+ANCategory.h in Headers */,
+				494433BC3752E3797C6162FA02D596B9 /* UIView+ANCategory.h in Headers */,
+				EBB3C4AFF437CE1FF6FD13281ED52862 /* UIView+ANNativeAdCategory.h in Headers */,
+				74CCCF48A1D95EDAECE09BCD6A459673 /* UIWebView+ANCategory.h in Headers */,
+				E499C1DBB47AC41C208E367C5BBDD164 /* WKWebView+ANCategory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B6A5F93B46C6E0A9C3A434BD178E4371 /* Pods-ExampleAppNexusMobileSDKIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D028F1B846077054CB01FBBC51B60B96 /* Build configuration list for PBXNativeTarget "Pods-ExampleAppNexusMobileSDKIntegration" */;
+			buildPhases = (
+				582C1143EA19686D19EF72437DD50A43 /* Sources */,
+				065AD1535EB41782EF812AA5151165D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				429FE66948C5D264AF1731D305AB0F62 /* PBXTargetDependency */,
+			);
+			name = "Pods-ExampleAppNexusMobileSDKIntegration";
+			productName = "Pods-ExampleAppNexusMobileSDKIntegration";
+			productReference = 72BA870F8400159AA1A5F41B3473CD3E /* libPods-ExampleAppNexusMobileSDKIntegration.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C9639C6EA3AA03FEF16EDA167BE800ED /* AppNexusSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 021160052068227D02819CCE28ED724E /* Build configuration list for PBXNativeTarget "AppNexusSDK" */;
+			buildPhases = (
+				CF3F0D70325D6C0695F313CA87C22ADD /* Sources */,
+				5DD3B3B924B4AA574E09E628C96461A0 /* Frameworks */,
+				BDA01B50612B782460620DDE6028AC75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppNexusSDK;
+			productName = AppNexusSDK;
+			productReference = A9F0CFDC3365C18C8F7387C1F5D199A2 /* libAppNexusSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2FD60235F40F4A921926BAD4E049432A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9639C6EA3AA03FEF16EDA167BE800ED /* AppNexusSDK */,
+				B6A5F93B46C6E0A9C3A434BD178E4371 /* Pods-ExampleAppNexusMobileSDKIntegration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582C1143EA19686D19EF72437DD50A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13CA14B35EB638D6EC4E3CA4F3E19AB /* Pods-ExampleAppNexusMobileSDKIntegration-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F0D70325D6C0695F313CA87C22ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CCDEB71F6E44F5C59BE4B780450499 /* ANAdFetcherResponse.m in Sources */,
+				A10895A6A6DAC6DD6C93D22490FC4083 /* ANAdView.m in Sources */,
+				919787EE3BF315937B190634093ECE5F /* ANAdWebViewController.m in Sources */,
+				FD9D5A17D9755E57AC587B484275EE29 /* ANANJAMImplementation.m in Sources */,
+				91B29A6FC40C1528AE07163AD99BE31E /* ANBannerAdView+ANContentViewTransitions.m in Sources */,
+				1A4F376BBCEE3BEEB50180D58FCC666D /* ANBannerAdView.m in Sources */,
+				15CE86BE1963AA4DFDD98F8446B79039 /* ANBaseAdObject.m in Sources */,
+				42BB0D5E8AC833C6884A59E558089385 /* ANBrowserViewController.m in Sources */,
+				C29B6E9A8B6E737657766AA8679FF924 /* ANClickOverlayView.m in Sources */,
+				AC3873C3C1DD94BABB78DFCAD3C0810A /* ANCSMVideoAd.m in Sources */,
+				4BD9F8E1C37A036AA4744051BBEE5EF1 /* ANGDPRSettings.m in Sources */,
+				177DB43B1CDDED147FBC3700DF4F2410 /* ANGlobal.m in Sources */,
+				7D5575DC6A2846129862636B3BD3166F /* ANInstreamVideoAd.m in Sources */,
+				1A84F77D9D395F2864F6BE8DBE843FA2 /* ANInterstitialAd.m in Sources */,
+				6DE55FFE12045C84B877407E6E9A97E7 /* ANInterstitialAdViewController.m in Sources */,
+				56755BFB412BC9CA68552239580EC224 /* ANLocation.m in Sources */,
+				BCC55C693DEE19D0713C02787A8229F9 /* ANLogging.m in Sources */,
+				B79A279FC34DD08A465EE3DE58474025 /* ANLogManager.m in Sources */,
+				0BB5F583F4C46221266CDF1549AD66DE /* ANMediatedAd.m in Sources */,
+				68F60DD2D7D9F0572956B994B22BBDC3 /* ANMediationAdViewController.m in Sources */,
+				72CE804DA0CDB83DD0BD0C853A84B508 /* ANMediationContainerView.m in Sources */,
+				548205F442514F17C2FEDFAD51C9FD85 /* ANMRAIDCalendarManager.m in Sources */,
+				705683506D87E89A42170EDD830CD809 /* ANMRAIDContainerView.m in Sources */,
+				2A4422D5FA2F8D41B5F5D3456091856F /* ANMRAIDExpandProperties.m in Sources */,
+				ED4F63173974DF04F508498F88177601 /* ANMRAIDExpandViewController.m in Sources */,
+				8DA20D7D38915863A709C3CA8740C479 /* ANMRAIDJavascriptUtil.m in Sources */,
+				D0026A294A67AB8BD89084E0C0ECF5F6 /* ANMRAIDOrientationProperties.m in Sources */,
+				B22F0D2B00180F6A157F8FC1B4870A4F /* ANMRAIDResizeProperties.m in Sources */,
+				7660B5EB174214678DC40A6D78BDDB02 /* ANMRAIDResizeView.m in Sources */,
+				1885FEF8109E35F4CBD4338AA852D360 /* ANMRAIDResizeViewManager.m in Sources */,
+				12528D2956965B48A6DFABF07CF9863C /* ANMRAIDUtil.m in Sources */,
+				F743C39FE79850C3A5F0FCFDC79EE734 /* ANNativeAdImageCache.m in Sources */,
+				3068207376065E880D5908545D5135EA /* ANNativeAdRequest.m in Sources */,
+				9F6182C7EC5D137F3E3167581D38103A /* ANNativeAdResponse.m in Sources */,
+				39A5B5365A9016AD1E653B09100633D9 /* ANNativeAdStarRating.m in Sources */,
+				77BF16B777058854E6DE2D952AF0ABAD /* ANNativeMediatedAdController.m in Sources */,
+				F43B74281D793051C8DEB07C26002813 /* ANNativeMediatedAdResponse.m in Sources */,
+				FE4603D2030CDC20837A3AD753FB6D14 /* ANNativeStandardAdResponse.m in Sources */,
+				4DA08210C3B87EF57D562A84924EACF1 /* ANOpenInExternalBrowserActivity.m in Sources */,
+				BAD72E011F228BA968CA4FE39C67CF86 /* ANPBBuffer.m in Sources */,
+				55239399E650794566FCA1EF4073E381 /* ANPBContainerView.m in Sources */,
+				A7F8385CE66EFFD524C154FC2A4577D3 /* ANProxyViewController.m in Sources */,
+				8CCEB93B939F706A9A47556D6E23B61A /* ANReachability.m in Sources */,
+				B0384DE640CE3E4F43D0119114815B98 /* ANRTBVideoAd.m in Sources */,
+				BFE044BE60A087ED4D452891E6FA516E /* ANSDKSettings.m in Sources */,
+				AEB3ABCE67C01F7BA8BD582F8938BA2D /* ANSSMMediationAdViewController.m in Sources */,
+				4D151301062E73E3CD75C7F295F5AE3C /* ANSSMStandardAd.m in Sources */,
+				FF049A3065BA797671D4F2AE42C889FE /* ANSSMVideoAd.m in Sources */,
+				091235E9B6D6ECB2D6EB68E59C6619DF /* ANStandardAd.m in Sources */,
+				BC21624DAF83CBE8800B5B327FD2F7EF /* ANStoreProductViewController.m in Sources */,
+				6AC5329AAF3A41E32054C877621D1660 /* ANTargetingParameters.m in Sources */,
+				6918811F3F43862442A2D759941A4170 /* ANTrackerInfo.m in Sources */,
+				40C9183585755C9822BDCB7B6C06B9EC /* ANTrackerManager.m in Sources */,
+				85D6E98DD63576AC79C1326613741AA5 /* ANUniversalAdFetcher.m in Sources */,
+				33FDAB8EFE1FFE95C29C83C53F0340DB /* ANUniversalTagAdServerResponse.m in Sources */,
+				EBC14373EBCC3A7B3783BBBD3DA955CF /* ANUniversalTagRequestBuilder.m in Sources */,
+				7F6CB24203748131AD3612E34EA0A6EC /* ANVideoAdPlayer.m in Sources */,
+				D3047D3F8AF992D0A307B0310B29BCED /* ANVideoAdProcessor.m in Sources */,
+				CA068D7010000EE946FFCFE82ABD1ABC /* AppNexusSDK-dummy.m in Sources */,
+				D01FF9A17E9889AA21D1D50F1D386AEB /* NSDictionary+ANCategory.m in Sources */,
+				6C4542AD42800FBDC7E6F4F472C91221 /* NSObject+ANCategory.m in Sources */,
+				ED42AD998D95A212DDE40B768A449311 /* NSString+ANCategory.m in Sources */,
+				827BE0D3D6A07C70BC51FC2D0108975A /* NSTimer+ANCategory.m in Sources */,
+				CB5BD64290B330BEBFCBB4A5F3920D53 /* UIView+ANCategory.m in Sources */,
+				6DCFE894E0140D24AEC6006953080BFC /* UIView+ANNativeAdCategory.m in Sources */,
+				83DB14BD1436BBDD64AC8B6C7B90AD1A /* UIWebView+ANCategory.m in Sources */,
+				835768CF7C1FFFF54FA9D278640559EF /* WKWebView+ANCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		429FE66948C5D264AF1731D305AB0F62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppNexusSDK;
+			target = C9639C6EA3AA03FEF16EDA167BE800ED /* AppNexusSDK */;
+			targetProxy = 41B0E4DDFEB91D7417586EF77435ABB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84176A9011869660751BE785B294D403 /* ANBrowserViewController_SizeClasses.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7979F6AB3F79AC67F4AEF363854ADEF3 /* ANBrowserViewController_SizeClasses.strings */,
+				9DFE9D07DCE623DBA800271BE4F7E390 /* ANBrowserViewController_SizeClasses.strings */,
+				7E8528F54FE73BC9F8AAC83C809264FC /* ANBrowserViewController_SizeClasses.strings */,
+				C4A1B32E169F21592E05365E891E6EFF /* ANBrowserViewController_SizeClasses.strings */,
+				F39312171A6747A18D243CDB4BFFACA6 /* ANBrowserViewController_SizeClasses.strings */,
+				84E3270238096996AF41933BC377E5B6 /* ANBrowserViewController_SizeClasses.xib */,
+			);
+			name = ANBrowserViewController_SizeClasses.xib;
+			path = sdk/Resources;
+			sourceTree = "<group>";
+		};
+		B89C4B5A5211A44AD1A61FF63E40AD41 /* ANBrowserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B93BCACCB0D1EC104B7FBE06A4D5D96B /* ANBrowserViewController.strings */,
+				031DD2AD442C96A8DBB57B359CB47CF1 /* ANBrowserViewController.strings */,
+				1B7367657E18733743835131F6EF0EC3 /* ANBrowserViewController.strings */,
+				C0498B548AD1651B3DE7AAB527ECEA9D /* ANBrowserViewController.strings */,
+				E1A5600465FA9BDE0D575FD9CCE33925 /* ANBrowserViewController.strings */,
+				21B06B2C8A409AD4207B3839D91B367F /* ANBrowserViewController.xib */,
+			);
+			name = ANBrowserViewController.xib;
+			path = sdk/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3A435A7021B6873FC957A3A4A36AEB53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03785C45E68E6B2037C329B39C4045F /* AppNexusSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AppNexusSDK/AppNexusSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AppNexusSDK;
+				PRODUCT_NAME = AppNexusSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68C6036A1B685E9183DBD879DF7DB0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 403DF8D504122AFD95A5C69546D33B12 /* Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99BC5553A55001BD080D980D6D9BC328 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C03785C45E68E6B2037C329B39C4045F /* AppNexusSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AppNexusSDK/AppNexusSDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AppNexusSDK;
+				PRODUCT_NAME = AppNexusSDK;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADE672CC74E5D8E6F666D3DFA755B1EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4F862C378F146D94DAEAF707BDF13D /* Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		021160052068227D02819CCE28ED724E /* Build configuration list for PBXNativeTarget "AppNexusSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99BC5553A55001BD080D980D6D9BC328 /* Debug */,
+				3A435A7021B6873FC957A3A4A36AEB53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D028F1B846077054CB01FBBC51B60B96 /* Build configuration list for PBXNativeTarget "Pods-ExampleAppNexusMobileSDKIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADE672CC74E5D8E6F666D3DFA755B1EC /* Debug */,
+				68C6036A1B685E9183DBD879DF7DB0F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

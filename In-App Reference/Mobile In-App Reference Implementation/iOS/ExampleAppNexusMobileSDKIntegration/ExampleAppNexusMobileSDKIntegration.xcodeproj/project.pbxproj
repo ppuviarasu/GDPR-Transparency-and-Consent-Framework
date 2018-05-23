@@ -15,6 +15,7 @@
 		0E1B936420B60FD300949400 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B936320B60FD300949400 /* main.m */; };
 		0E1B93B420B610DA00949400 /* CMPReference.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1B93AE20B610A100949400 /* CMPReference.framework */; };
 		0E1B93B520B610DA00949400 /* CMPReference.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1B93AE20B610A100949400 /* CMPReference.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D9F68C08CEA33A36E03E026B /* libPods-ExampleAppNexusMobileSDKIntegration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 747AE1A98DE2976B1FF0F36C /* libPods-ExampleAppNexusMobileSDKIntegration.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,9 @@
 		0E1B936220B60FD300949400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E1B936320B60FD300949400 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E1B93A920B610A100949400 /* CMPReference.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CMPReference.xcodeproj; path = ../CMPReference/CMPReference.xcodeproj; sourceTree = "<group>"; };
+		747AE1A98DE2976B1FF0F36C /* libPods-ExampleAppNexusMobileSDKIntegration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleAppNexusMobileSDKIntegration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7901201FEB68F98440F9CBE0 /* Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleAppNexusMobileSDKIntegration/Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig"; sourceTree = "<group>"; };
+		E4B47464C5D33659275D01D8 /* Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleAppNexusMobileSDKIntegration/Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E1B93B420B610DA00949400 /* CMPReference.framework in Frameworks */,
+				D9F68C08CEA33A36E03E026B /* libPods-ExampleAppNexusMobileSDKIntegration.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +85,8 @@
 				0E1B93A920B610A100949400 /* CMPReference.xcodeproj */,
 				0E1B935320B60FD200949400 /* ExampleAppNexusMobileSDKIntegration */,
 				0E1B935220B60FD200949400 /* Products */,
+				A30E0BEA1234444BFC22B51E /* Pods */,
+				390430C9E67C73D37A1FFBA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +122,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		390430C9E67C73D37A1FFBA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				747AE1A98DE2976B1FF0F36C /* libPods-ExampleAppNexusMobileSDKIntegration.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A30E0BEA1234444BFC22B51E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7901201FEB68F98440F9CBE0 /* Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig */,
+				E4B47464C5D33659275D01D8 /* Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E1B936720B60FD300949400 /* Build configuration list for PBXNativeTarget "ExampleAppNexusMobileSDKIntegration" */;
 			buildPhases = (
+				7659C56E61538A1DDB505C8A /* [CP] Check Pods Manifest.lock */,
 				0E1B934D20B60FD200949400 /* Sources */,
 				0E1B934E20B60FD200949400 /* Frameworks */,
 				0E1B934F20B60FD200949400 /* Resources */,
 				0E1B93B820B610DA00949400 /* Embed Frameworks */,
+				908AD35BEF14C55455225EF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,6 +224,117 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7659C56E61538A1DDB505C8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleAppNexusMobileSDKIntegration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908AD35BEF14C55455225EF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExampleAppNexusMobileSDKIntegration/Pods-ExampleAppNexusMobileSDKIntegration-resources.sh",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/ANInterstitialAdViewController.xib",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/anjam.js",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/ANMRAID.bundle/mraid.js",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/ASTMediationManager.js",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/Base.lproj/ANBrowserViewController.xib",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/Base.lproj/ANBrowserViewController_SizeClasses.xib",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/de.lproj/ANBrowserViewController.strings",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/de.lproj/ANBrowserViewController_SizeClasses.strings",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/en.lproj/ANBrowserViewController.strings",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/en.lproj/ANBrowserViewController_SizeClasses.strings",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/errors.strings",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/es.lproj/ANBrowserViewController.strings",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/es.lproj/ANBrowserViewController_SizeClasses.strings",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/fr.lproj/ANBrowserViewController.strings",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/fr.lproj/ANBrowserViewController_SizeClasses.strings",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/an_arrow_left.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/an_arrow_left@2x.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/an_arrow_left@3x.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/an_arrow_right.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/an_arrow_right@2x.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/an_arrow_right@3x.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/appnexus_logo_icon.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/appnexus_logo_icon@2x.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/compass.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/compass@2x.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/compass@3x.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/interstitial_closebox.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/interstitial_closebox@2x.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/interstitial_flat_closebox.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/interstitial_flat_closebox@2x.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/interstitial_flat_closebox@3x.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/UIButtonBarArrowLeft.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/UIButtonBarArrowLeft@2x.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/UIButtonBarArrowRight.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/UIButtonBarArrowRight@2x.png",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/MobileVastPlayer.js",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/sdkjs.js",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/vastVideo.html",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/zh-Hans.lproj/ANBrowserViewController.strings",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/zh-Hans.lproj/ANBrowserViewController_SizeClasses.strings",
+				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/ANMRAID.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ANInterstitialAdViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/anjam.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mraid.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ASTMediationManager.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ANBrowserViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ANBrowserViewController_SizeClasses.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ANBrowserViewController.strings",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ANBrowserViewController_SizeClasses.strings",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/errors.strings",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an_arrow_left.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an_arrow_left@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an_arrow_left@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an_arrow_right.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an_arrow_right@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an_arrow_right@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/appnexus_logo_icon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/appnexus_logo_icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compass.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compass@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compass@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/interstitial_closebox.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/interstitial_closebox@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/interstitial_flat_closebox.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/interstitial_flat_closebox@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/interstitial_flat_closebox@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIButtonBarArrowLeft.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIButtonBarArrowLeft@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIButtonBarArrowRight.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIButtonBarArrowRight@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MobileVastPlayer.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sdkjs.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/vastVideo.html",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ANMRAID.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleAppNexusMobileSDKIntegration/Pods-ExampleAppNexusMobileSDKIntegration-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E1B934D20B60FD200949400 /* Sources */ = {
@@ -352,6 +489,7 @@
 		};
 		0E1B936820B60FD300949400 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7901201FEB68F98440F9CBE0 /* Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -367,6 +505,7 @@
 		};
 		0E1B936920B60FD300949400 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B47464C5D33659275D01D8 /* Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

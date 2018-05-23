@@ -42,12 +42,26 @@
                                     <action selector="showGDPRConsentTool:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vef-Gc-QAD"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Luu-sa-Aws">
+                                <rect key="frame" x="21" y="92" width="338" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Show AppNexus Banner Ad"/>
+                                <connections>
+                                    <action selector="btLoanAppNexusAdAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vk1-lv-4rf"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vAD-oF-o9g" customClass="ANBannerAdView">
+                                <rect key="frame" x="18" y="180" width="338" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="GDPRConsentStringLabel" destination="cqs-pb-t00" id="1rd-5Q-9be"/>
+                        <outlet property="bannerAdView" destination="vAD-oF-o9g" id="tpN-OD-ZXJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

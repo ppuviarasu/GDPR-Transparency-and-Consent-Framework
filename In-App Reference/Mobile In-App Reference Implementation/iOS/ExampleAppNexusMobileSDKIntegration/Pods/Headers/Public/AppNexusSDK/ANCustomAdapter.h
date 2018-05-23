@@ -1,0 +1,1 @@
+../../../AppNexusSDK/sdk/ANCustomAdapter.h

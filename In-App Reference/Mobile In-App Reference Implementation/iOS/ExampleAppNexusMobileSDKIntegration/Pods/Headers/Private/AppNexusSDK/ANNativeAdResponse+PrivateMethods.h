@@ -1,0 +1,1 @@
+../../../AppNexusSDK/sdk/native/internal/ANNativeAdResponse+PrivateMethods.h
