@@ -1,0 +1,44 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN"
+    "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>GDPR Complete Solution</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<style>
+		html,
+		body {
+			font-family: "Helvetica Neue, Helvetica, Arial, sans-serif";
+			padding: 0;
+			margin: 0;
+		}
+
+		.content {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0px;
+		}
+	</style>
+	<script src="../cmp.complete.bundle.js"></script>
+	<script>
+		__cmp('showConsentTool');
+
+		__cmp('addEventListener', 'onSubmit', function(result) {
+			console.log('Event "onSubmit"');
+
+			__cmp('getConsentData', null, function(result) {
+				console.log('getConsentData callback result: ' + JSON.stringify(result, null, 2));
+				window.location = `consent://${result ? result.consentData : ''}`;
+			});
+		});
+	</script>
+</head>
+
+<body style="width: 100%; height: 100%">
+</body>
+
+</html>
