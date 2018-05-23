@@ -1,0 +1,4 @@
+include ':app'
+
+include ':inappcmpreference'
+project(':inappcmpreference').projectDir = new File(settingsDir, '../CMPReference/InAppCMPReference')
