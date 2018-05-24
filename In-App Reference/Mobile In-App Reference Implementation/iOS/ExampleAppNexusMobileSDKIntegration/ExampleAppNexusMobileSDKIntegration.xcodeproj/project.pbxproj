@@ -18,7 +18,6 @@
 		0ED7B58C20B73924002D1082 /* AppNexusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED7B58520B738E6002D1082 /* AppNexusSDK.framework */; };
 		0ED7B58D20B73924002D1082 /* AppNexusSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED7B58520B738E6002D1082 /* AppNexusSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0EDBA9A420B7248000909743 /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBA9A320B7248000909743 /* DebugViewController.m */; };
-		D9F68C08CEA33A36E03E026B /* libPods-ExampleAppNexusMobileSDKIntegration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 747AE1A98DE2976B1FF0F36C /* libPods-ExampleAppNexusMobileSDKIntegration.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -208,9 +207,6 @@
 		0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ANSDK.xcodeproj; path = ../AppNexusSDK/BinaryProjects/ANSDK.xcodeproj; sourceTree = "<group>"; };
 		0EDBA9A220B7248000909743 /* DebugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugViewController.h; sourceTree = "<group>"; };
 		0EDBA9A320B7248000909743 /* DebugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugViewController.m; sourceTree = "<group>"; };
-		747AE1A98DE2976B1FF0F36C /* libPods-ExampleAppNexusMobileSDKIntegration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleAppNexusMobileSDKIntegration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7901201FEB68F98440F9CBE0 /* Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleAppNexusMobileSDKIntegration/Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig"; sourceTree = "<group>"; };
-		E4B47464C5D33659275D01D8 /* Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleAppNexusMobileSDKIntegration/Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,7 +215,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E1B93B420B610DA00949400 /* CMPReference.framework in Frameworks */,
-				D9F68C08CEA33A36E03E026B /* libPods-ExampleAppNexusMobileSDKIntegration.a in Frameworks */,
 				0ED7B58C20B73924002D1082 /* AppNexusSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,8 +229,6 @@
 				0E1B93A920B610A100949400 /* CMPReference.xcodeproj */,
 				0E1B935320B60FD200949400 /* ExampleAppNexusMobileSDKIntegration */,
 				0E1B935220B60FD200949400 /* Products */,
-				A30E0BEA1234444BFC22B51E /* Pods */,
-				390430C9E67C73D37A1FFBA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -299,23 +292,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		390430C9E67C73D37A1FFBA6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				747AE1A98DE2976B1FF0F36C /* libPods-ExampleAppNexusMobileSDKIntegration.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A30E0BEA1234444BFC22B51E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7901201FEB68F98440F9CBE0 /* Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig */,
-				E4B47464C5D33659275D01D8 /* Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,7 +299,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E1B936720B60FD300949400 /* Build configuration list for PBXNativeTarget "ExampleAppNexusMobileSDKIntegration" */;
 			buildPhases = (
-				7659C56E61538A1DDB505C8A /* [CP] Check Pods Manifest.lock */,
 				0E1B934D20B60FD200949400 /* Sources */,
 				0E1B934E20B60FD200949400 /* Frameworks */,
 				0E1B934F20B60FD200949400 /* Resources */,
@@ -539,27 +514,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		7659C56E61538A1DDB505C8A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ExampleAppNexusMobileSDKIntegration-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		0E1B934D20B60FD200949400 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -719,7 +673,6 @@
 		};
 		0E1B936820B60FD300949400 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7901201FEB68F98440F9CBE0 /* Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -739,7 +692,6 @@
 		};
 		0E1B936920B60FD300949400 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4B47464C5D33659275D01D8 /* Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
