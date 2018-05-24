@@ -15,6 +15,9 @@
 		0E1B936420B60FD300949400 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B936320B60FD300949400 /* main.m */; };
 		0E1B93B420B610DA00949400 /* CMPReference.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1B93AE20B610A100949400 /* CMPReference.framework */; };
 		0E1B93B520B610DA00949400 /* CMPReference.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0E1B93AE20B610A100949400 /* CMPReference.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0ED7B58C20B73924002D1082 /* AppNexusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED7B58520B738E6002D1082 /* AppNexusSDK.framework */; };
+		0ED7B58D20B73924002D1082 /* AppNexusSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0ED7B58520B738E6002D1082 /* AppNexusSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0EDBA9A420B7248000909743 /* DebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EDBA9A320B7248000909743 /* DebugViewController.m */; };
 		D9F68C08CEA33A36E03E026B /* libPods-ExampleAppNexusMobileSDKIntegration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 747AE1A98DE2976B1FF0F36C /* libPods-ExampleAppNexusMobileSDKIntegration.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,146 @@
 			remoteGlobalIDString = 0E1B938820B6103A00949400;
 			remoteInfo = CMPReference;
 		};
+		0ED7B56620B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC3E5CDC1843C6D50070315E;
+			remoteInfo = ANSDK;
+		};
+		0ED7B56820B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC48177B1845046A0066BBFE;
+			remoteInfo = ANSDKResources;
+		};
+		0ED7B56A20B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AE2D6D119CC874B00001B70;
+			remoteInfo = ANSDKGoogleAdMobAdapter;
+		};
+		0ED7B56C20B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AE2D73319CC879900001B70;
+			remoteInfo = ANSDKMillennialMediaAdapter;
+		};
+		0ED7B56E20B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AE2D76419CC87B200001B70;
+			remoteInfo = ANSDKMoPubAdapter;
+		};
+		0ED7B57020B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AE2D79519CC87CC00001B70;
+			remoteInfo = ANSDKFacebookAdapter;
+		};
+		0ED7B57220B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AD5154019D214CA002E53D6;
+			remoteInfo = ANSDKAmazonAdapter;
+		};
+		0ED7B57420B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AA5B4C41AA8B4A500522E1C;
+			remoteInfo = ANSDKInMobiAdapter;
+		};
+		0ED7B57620B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A4B96B51ACD9A4C00FFEB2A;
+			remoteInfo = ANSDKVdopiaAdapter;
+		};
+		0ED7B57820B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A1482571AD337320046F1B9;
+			remoteInfo = ANSDKAdColonyAdapter;
+		};
+		0ED7B57A20B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AD7C4D81AD2FABA0049C997;
+			remoteInfo = ANSDKVungleAdapter;
+		};
+		0ED7B57C20B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A949ACE1ADF131500D83DCE;
+			remoteInfo = ANSDKChartboostAdapter;
+		};
+		0ED7B57E20B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A96871A1B43314E00D9399B;
+			remoteInfo = ANSDKYahooAdapter;
+		};
+		0ED7B58020B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AE2D85319CC9A6F00001B70;
+			remoteInfo = ANAdapterForGoogleAdMobSDK;
+		};
+		0ED7B58220B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8AE2D86119CC9B0F00001B70;
+			remoteInfo = ANAdapterForMoPubSDK;
+		};
+		0ED7B58420B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8A9AED8C1A1BE84F00C58BDA;
+			remoteInfo = AppNexusSDK;
+		};
+		0ED7B58620B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 60359FEF1E23FCB50017EF56;
+			remoteInfo = ANSDKSmartAdAdapter;
+		};
+		0ED7B58820B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 60359EB01E1EA1180017EF56;
+			remoteInfo = ANSDKAdMarvelAdapter;
+		};
+		0ED7B58A20B738E6002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 604C112D1E26BE4B006D6C97;
+			remoteInfo = ANSDKRubiconAdapter;
+		};
+		0ED7B58E20B73924002D1082 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A9AED8B1A1BE84F00C58BDA;
+			remoteInfo = AppNexusSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +186,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				0E1B93B520B610DA00949400 /* CMPReference.framework in Embed Frameworks */,
+				0ED7B58D20B73924002D1082 /* AppNexusSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +205,9 @@
 		0E1B936220B60FD300949400 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E1B936320B60FD300949400 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E1B93A920B610A100949400 /* CMPReference.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CMPReference.xcodeproj; path = ../CMPReference/CMPReference.xcodeproj; sourceTree = "<group>"; };
+		0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ANSDK.xcodeproj; path = ../AppNexusSDK/BinaryProjects/ANSDK.xcodeproj; sourceTree = "<group>"; };
+		0EDBA9A220B7248000909743 /* DebugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebugViewController.h; sourceTree = "<group>"; };
+		0EDBA9A320B7248000909743 /* DebugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DebugViewController.m; sourceTree = "<group>"; };
 		747AE1A98DE2976B1FF0F36C /* libPods-ExampleAppNexusMobileSDKIntegration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleAppNexusMobileSDKIntegration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7901201FEB68F98440F9CBE0 /* Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleAppNexusMobileSDKIntegration/Pods-ExampleAppNexusMobileSDKIntegration.debug.xcconfig"; sourceTree = "<group>"; };
 		E4B47464C5D33659275D01D8 /* Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExampleAppNexusMobileSDKIntegration/Pods-ExampleAppNexusMobileSDKIntegration.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +220,7 @@
 			files = (
 				0E1B93B420B610DA00949400 /* CMPReference.framework in Frameworks */,
 				D9F68C08CEA33A36E03E026B /* libPods-ExampleAppNexusMobileSDKIntegration.a in Frameworks */,
+				0ED7B58C20B73924002D1082 /* AppNexusSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +230,7 @@
 		0E1B934820B60FD200949400 = {
 			isa = PBXGroup;
 			children = (
+				0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */,
 				0E1B93A920B610A100949400 /* CMPReference.xcodeproj */,
 				0E1B935320B60FD200949400 /* ExampleAppNexusMobileSDKIntegration */,
 				0E1B935220B60FD200949400 /* Products */,
@@ -105,6 +254,8 @@
 				0E1B935520B60FD200949400 /* AppDelegate.m */,
 				0E1B935720B60FD200949400 /* ViewController.h */,
 				0E1B935820B60FD200949400 /* ViewController.m */,
+				0EDBA9A220B7248000909743 /* DebugViewController.h */,
+				0EDBA9A320B7248000909743 /* DebugViewController.m */,
 				0E1B935A20B60FD200949400 /* Main.storyboard */,
 				0E1B935D20B60FD300949400 /* Assets.xcassets */,
 				0E1B935F20B60FD300949400 /* LaunchScreen.storyboard */,
@@ -118,6 +269,32 @@
 			isa = PBXGroup;
 			children = (
 				0E1B93AE20B610A100949400 /* CMPReference.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ED7B55120B738E6002D1082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7B56720B738E6002D1082 /* libANSDK.a */,
+				0ED7B56920B738E6002D1082 /* ANSDKResources.bundle */,
+				0ED7B56B20B738E6002D1082 /* libANSDKGoogleAdMobAdapter.a */,
+				0ED7B56D20B738E6002D1082 /* libANSDKMillennialMediaAdapter.a */,
+				0ED7B56F20B738E6002D1082 /* libANSDKMoPubAdapter.a */,
+				0ED7B57120B738E6002D1082 /* libANSDKFacebookAdapter.a */,
+				0ED7B57320B738E6002D1082 /* libANSDKAmazonAdapter.a */,
+				0ED7B57520B738E6002D1082 /* libANSDKInMobiAdapter.a */,
+				0ED7B57720B738E6002D1082 /* libANSDKVdopiaAdapter.a */,
+				0ED7B57920B738E6002D1082 /* libANSDKAdColonyAdapter.a */,
+				0ED7B57B20B738E6002D1082 /* libANSDKVungleAdapter.a */,
+				0ED7B57D20B738E6002D1082 /* libANSDKChartboostAdapter.a */,
+				0ED7B57F20B738E6002D1082 /* libANSDKYahooAdapter.a */,
+				0ED7B58120B738E6002D1082 /* libANAdapterForGoogleAdMobSDK.a */,
+				0ED7B58320B738E6002D1082 /* libANAdapterForMoPubSDK.a */,
+				0ED7B58520B738E6002D1082 /* AppNexusSDK.framework */,
+				0ED7B58720B738E6002D1082 /* libANSDKSmartAdAdapter.a */,
+				0ED7B58920B738E6002D1082 /* libANSDKAdMarvelAdapter.a */,
+				0ED7B58B20B738E6002D1082 /* libANSDKRubiconAdapter.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,12 +328,12 @@
 				0E1B934E20B60FD200949400 /* Frameworks */,
 				0E1B934F20B60FD200949400 /* Resources */,
 				0E1B93B820B610DA00949400 /* Embed Frameworks */,
-				908AD35BEF14C55455225EF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				0E1B93B720B610DA00949400 /* PBXTargetDependency */,
+				0ED7B58F20B73924002D1082 /* PBXTargetDependency */,
 			);
 			name = ExampleAppNexusMobileSDKIntegration;
 			productName = ExampleAppNexusMobileSDKIntegration;
@@ -191,6 +368,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 0ED7B55120B738E6002D1082 /* Products */;
+					ProjectRef = 0ED7B55020B738E6002D1082 /* ANSDK.xcodeproj */;
+				},
+				{
 					ProductGroup = 0E1B93AA20B610A100949400 /* Products */;
 					ProjectRef = 0E1B93A920B610A100949400 /* CMPReference.xcodeproj */;
 				},
@@ -208,6 +389,139 @@
 			fileType = wrapper.framework;
 			path = CMPReference.framework;
 			remoteRef = 0E1B93AD20B610A100949400 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B56720B738E6002D1082 /* libANSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDK.a;
+			remoteRef = 0ED7B56620B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B56920B738E6002D1082 /* ANSDKResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ANSDKResources.bundle;
+			remoteRef = 0ED7B56820B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B56B20B738E6002D1082 /* libANSDKGoogleAdMobAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKGoogleAdMobAdapter.a;
+			remoteRef = 0ED7B56A20B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B56D20B738E6002D1082 /* libANSDKMillennialMediaAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKMillennialMediaAdapter.a;
+			remoteRef = 0ED7B56C20B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B56F20B738E6002D1082 /* libANSDKMoPubAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKMoPubAdapter.a;
+			remoteRef = 0ED7B56E20B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B57120B738E6002D1082 /* libANSDKFacebookAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKFacebookAdapter.a;
+			remoteRef = 0ED7B57020B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B57320B738E6002D1082 /* libANSDKAmazonAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKAmazonAdapter.a;
+			remoteRef = 0ED7B57220B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B57520B738E6002D1082 /* libANSDKInMobiAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKInMobiAdapter.a;
+			remoteRef = 0ED7B57420B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B57720B738E6002D1082 /* libANSDKVdopiaAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKVdopiaAdapter.a;
+			remoteRef = 0ED7B57620B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B57920B738E6002D1082 /* libANSDKAdColonyAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKAdColonyAdapter.a;
+			remoteRef = 0ED7B57820B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B57B20B738E6002D1082 /* libANSDKVungleAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKVungleAdapter.a;
+			remoteRef = 0ED7B57A20B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B57D20B738E6002D1082 /* libANSDKChartboostAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKChartboostAdapter.a;
+			remoteRef = 0ED7B57C20B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B57F20B738E6002D1082 /* libANSDKYahooAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKYahooAdapter.a;
+			remoteRef = 0ED7B57E20B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B58120B738E6002D1082 /* libANAdapterForGoogleAdMobSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANAdapterForGoogleAdMobSDK.a;
+			remoteRef = 0ED7B58020B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B58320B738E6002D1082 /* libANAdapterForMoPubSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANAdapterForMoPubSDK.a;
+			remoteRef = 0ED7B58220B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B58520B738E6002D1082 /* AppNexusSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AppNexusSDK.framework;
+			remoteRef = 0ED7B58420B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B58720B738E6002D1082 /* libANSDKSmartAdAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKSmartAdAdapter.a;
+			remoteRef = 0ED7B58620B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B58920B738E6002D1082 /* libANSDKAdMarvelAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKAdMarvelAdapter.a;
+			remoteRef = 0ED7B58820B738E6002D1082 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ED7B58B20B738E6002D1082 /* libANSDKRubiconAdapter.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libANSDKRubiconAdapter.a;
+			remoteRef = 0ED7B58A20B738E6002D1082 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -244,96 +558,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		908AD35BEF14C55455225EF4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ExampleAppNexusMobileSDKIntegration/Pods-ExampleAppNexusMobileSDKIntegration-resources.sh",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/ANInterstitialAdViewController.xib",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/anjam.js",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/ANMRAID.bundle/mraid.js",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/ASTMediationManager.js",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/Base.lproj/ANBrowserViewController.xib",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/Base.lproj/ANBrowserViewController_SizeClasses.xib",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/de.lproj/ANBrowserViewController.strings",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/de.lproj/ANBrowserViewController_SizeClasses.strings",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/en.lproj/ANBrowserViewController.strings",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/en.lproj/ANBrowserViewController_SizeClasses.strings",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/errors.strings",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/es.lproj/ANBrowserViewController.strings",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/es.lproj/ANBrowserViewController_SizeClasses.strings",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/fr.lproj/ANBrowserViewController.strings",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/fr.lproj/ANBrowserViewController_SizeClasses.strings",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/an_arrow_left.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/an_arrow_left@2x.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/an_arrow_left@3x.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/an_arrow_right.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/an_arrow_right@2x.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/an_arrow_right@3x.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/appnexus_logo_icon.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/appnexus_logo_icon@2x.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/compass.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/compass@2x.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/compass@3x.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/interstitial_closebox.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/interstitial_closebox@2x.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/interstitial_flat_closebox.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/interstitial_flat_closebox@2x.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/interstitial_flat_closebox@3x.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/UIButtonBarArrowLeft.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/UIButtonBarArrowLeft@2x.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/UIButtonBarArrowRight.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/images/UIButtonBarArrowRight@2x.png",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/MobileVastPlayer.js",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/sdkjs.js",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/vastVideo.html",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/zh-Hans.lproj/ANBrowserViewController.strings",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/zh-Hans.lproj/ANBrowserViewController_SizeClasses.strings",
-				"${PODS_ROOT}/AppNexusSDK/sdk/Resources/ANMRAID.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ANInterstitialAdViewController.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/anjam.js",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mraid.js",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ASTMediationManager.js",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ANBrowserViewController.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ANBrowserViewController_SizeClasses.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ANBrowserViewController.strings",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ANBrowserViewController_SizeClasses.strings",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/errors.strings",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an_arrow_left.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an_arrow_left@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an_arrow_left@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an_arrow_right.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an_arrow_right@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/an_arrow_right@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/appnexus_logo_icon.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/appnexus_logo_icon@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compass.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compass@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/compass@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/interstitial_closebox.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/interstitial_closebox@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/interstitial_flat_closebox.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/interstitial_flat_closebox@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/interstitial_flat_closebox@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIButtonBarArrowLeft.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIButtonBarArrowLeft@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIButtonBarArrowRight.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UIButtonBarArrowRight@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MobileVastPlayer.js",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sdkjs.js",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/vastVideo.html",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ANMRAID.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExampleAppNexusMobileSDKIntegration/Pods-ExampleAppNexusMobileSDKIntegration-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -343,6 +567,7 @@
 			files = (
 				0E1B935920B60FD200949400 /* ViewController.m in Sources */,
 				0E1B936420B60FD300949400 /* main.m in Sources */,
+				0EDBA9A420B7248000909743 /* DebugViewController.m in Sources */,
 				0E1B935620B60FD200949400 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +579,11 @@
 			isa = PBXTargetDependency;
 			name = CMPReference;
 			targetProxy = 0E1B93B620B610DA00949400 /* PBXContainerItemProxy */;
+		};
+		0ED7B58F20B73924002D1082 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppNexusSDK;
+			targetProxy = 0ED7B58E20B73924002D1082 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -497,6 +727,10 @@
 				INFOPLIST_FILE = ExampleAppNexusMobileSDKIntegration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppNexusSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appnexus.opensdk.samplecmpintegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -513,6 +747,10 @@
 				INFOPLIST_FILE = ExampleAppNexusMobileSDKIntegration/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppNexusSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.appnexus.opensdk.samplecmpintegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

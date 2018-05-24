@@ -13,15 +13,15 @@
 #import <CoreLocation/CoreLocation.h>
 #import <AppNexusSDK/ANLocation.h>
 #import <AppNexusSDK/ANLogManager.h>
-
-
-
-
+#import "DebugViewController.h"
+#import <AppNexusSDK/ANGlobal.h>
 @interface ViewController () <CMPConsentViewControllerDelegate , ANBannerAdViewDelegate, CLLocationManagerDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *GDPRConsentStringLabel;
 @property (nonatomic, readwrite, strong) CLLocationManager *locationManager;
 @property (weak, nonatomic) IBOutlet ANBannerAdView *bannerAdView;
 
+@property (strong, nonatomic) NSDictionary *jsonRequestLog;
+@property (strong, nonatomic) NSDictionary *jsonResponseLog;
 
 @end
 
@@ -29,12 +29,41 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [ANLogManager setANLogLevel:ANLogLevelAll];
     
+    ANSetNotificationsEnabled(YES);
+
     CMPStorage *consentStorageVC = [[CMPStorage alloc] init];
     if(consentStorageVC.cmpPresent  && consentStorageVC.consentString.length != 0){
         self.GDPRConsentStringLabel.text = consentStorageVC.consentString;
     }
+    
+    
+    [self addObserver];
+    
 }
+-(void)addObserver{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(kANUniversalAdFetcherWillRequestAdNotification:) name:@"kANUniversalAdFetcherWillRequestAdNotification" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(kANUniversalAdFetcherDidReceiveResponseNotification:) name:@"kANUniversalAdFetcherDidReceiveResponseNotification" object:nil];
+}
+
+- (void)kANUniversalAdFetcherWillRequestAdNotification:(NSNotification *)notification {
+    NSLog(@"Received Notification - Someone seems to have logged in");
+    NSDictionary *userInfo = [notification  userInfo];
+    self.jsonRequestLog = userInfo;
+    
+}
+
+- (void)kANUniversalAdFetcherDidReceiveResponseNotification:(NSNotification *)notification {
+    NSLog(@"Received Notification - Someone seems to have logged in");
+    NSDictionary *userInfo = [notification  userInfo];
+    self.jsonResponseLog = userInfo;
+    
+    
+    
+}
+
+
 
 - (IBAction)showGDPRConsentTool:(id)sender {
 
@@ -133,8 +162,6 @@
 - (void)adDidReceiveAd:(id<ANAdProtocol>)ad {
     NSLog(@"Ad did receive ad");
     NSLog(@"Creative Id %@",ad.creativeId);
-    
-    
 }
 
 
@@ -155,7 +182,21 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)btDebugAppNexusAdAction:(id)sender {
+    [self performSegueWithIdentifier:@"ShowDebugView" sender:self];
 
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"ShowDebugView"])
+    {
+        DebugViewController *vc = [segue destinationViewController];
+        [vc setJsonRequestLog:self.jsonRequestLog];
+        [vc setJsonResponseLog:self.jsonResponseLog];
+
+    }
+}
 
 
 @end

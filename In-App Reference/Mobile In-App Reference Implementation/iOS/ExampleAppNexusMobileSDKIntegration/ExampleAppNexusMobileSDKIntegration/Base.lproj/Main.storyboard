@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5CX-7B-fnZ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -18,53 +18,145 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cqs-pb-t00">
-                                <rect key="frame" x="21" y="574" width="338" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cqs-pb-t00">
+                                <rect key="frame" x="21" y="565" width="338" height="82"/>
                                 <color key="backgroundColor" red="0.92608484459999996" green="0.92608484459999996" blue="0.92608484459999996" alpha="0.3886183647260274" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Consent string:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="jPe-fO-gCy">
-                                <rect key="frame" x="129" y="533" width="117" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXi-qq-Eud">
-                                <rect key="frame" x="21" y="37" width="338" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Show GDPR Consent Tool"/>
-                                <connections>
-                                    <action selector="showGDPRConsentTool:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vef-Gc-QAD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Luu-sa-Aws">
-                                <rect key="frame" x="21" y="92" width="338" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Luu-sa-Aws">
+                                <rect key="frame" x="21" y="127" width="338" height="43"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Show AppNexus Banner Ad"/>
                                 <connections>
                                     <action selector="btLoanAppNexusAdAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vk1-lv-4rf"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vAD-oF-o9g" customClass="ANBannerAdView">
-                                <rect key="frame" x="18" y="180" width="338" height="270"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vAD-oF-o9g" customClass="ANBannerAdView">
+                                <rect key="frame" x="16" y="178" width="340" height="257"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pr2-dY-S09">
+                                <rect key="frame" x="18" y="459" width="338" height="47"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Debug"/>
+                                <connections>
+                                    <action selector="btDebugAppNexusAdAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iU8-IG-LZ3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXi-qq-Eud">
+                                <rect key="frame" x="21" y="78" width="338" height="41"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Show GDPR Consent Tool"/>
+                                <connections>
+                                    <action selector="showGDPRConsentTool:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vef-Gc-QAD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consent string:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="jPe-fO-gCy">
+                                <rect key="frame" x="129" y="522" width="117" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="jPe-fO-gCy" firstAttribute="top" secondItem="Pr2-dY-S09" secondAttribute="bottom" constant="16" id="3LH-vh-pas"/>
+                            <constraint firstAttribute="trailing" secondItem="mXi-qq-Eud" secondAttribute="trailing" constant="16" id="5j4-mg-gzZ"/>
+                            <constraint firstItem="jPe-fO-gCy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6ua-2B-yUj"/>
+                            <constraint firstItem="mXi-qq-Eud" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="14" id="DII-9y-vZL"/>
+                            <constraint firstItem="Luu-sa-Aws" firstAttribute="width" secondItem="mXi-qq-Eud" secondAttribute="width" id="EoJ-Lg-4kd"/>
+                            <constraint firstItem="Pr2-dY-S09" firstAttribute="width" secondItem="mXi-qq-Eud" secondAttribute="width" id="FFd-Wb-Z18"/>
+                            <constraint firstItem="vAD-oF-o9g" firstAttribute="height" secondItem="mXi-qq-Eud" secondAttribute="height" constant="216" id="KQK-FA-vEY"/>
+                            <constraint firstItem="cqs-pb-t00" firstAttribute="top" secondItem="jPe-fO-gCy" secondAttribute="bottom" constant="8" id="LSd-Bl-TPm"/>
+                            <constraint firstItem="Pr2-dY-S09" firstAttribute="top" secondItem="vAD-oF-o9g" secondAttribute="bottom" constant="24" id="LkE-jw-1VC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Luu-sa-Aws" secondAttribute="trailing" constant="16" id="Mjl-tg-9oo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cqs-pb-t00" secondAttribute="trailing" constant="16" id="NPn-5G-fBv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cqs-pb-t00" secondAttribute="bottom" constant="20" id="Rl4-KL-Ess"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vAD-oF-o9g" secondAttribute="trailing" constant="19" id="Uja-JH-L70"/>
+                            <constraint firstItem="Luu-sa-Aws" firstAttribute="height" secondItem="mXi-qq-Eud" secondAttribute="height" constant="2" id="W7g-z2-PnT"/>
+                            <constraint firstItem="mXi-qq-Eud" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Luu-sa-Aws" secondAttribute="leading" id="XCd-8t-jF2"/>
+                            <constraint firstItem="Pr2-dY-S09" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="18" id="YxE-h2-m0f"/>
+                            <constraint firstItem="jPe-fO-gCy" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aGO-XL-7po"/>
+                            <constraint firstItem="Luu-sa-Aws" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="bLF-GR-5cA"/>
+                            <constraint firstItem="cqs-pb-t00" firstAttribute="height" secondItem="mXi-qq-Eud" secondAttribute="height" constant="41" id="kzf-yY-bsU"/>
+                            <constraint firstItem="Pr2-dY-S09" firstAttribute="height" secondItem="mXi-qq-Eud" secondAttribute="height" constant="6" id="l0B-37-wsq"/>
+                            <constraint firstItem="Luu-sa-Aws" firstAttribute="top" secondItem="mXi-qq-Eud" secondAttribute="bottom" constant="8" id="lLB-2K-gyk"/>
+                            <constraint firstItem="jPe-fO-gCy" firstAttribute="height" secondItem="mXi-qq-Eud" secondAttribute="height" constant="-6" id="om1-RB-KG2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pr2-dY-S09" secondAttribute="trailing" constant="19" id="qJR-ft-Jk2"/>
+                            <constraint firstItem="cqs-pb-t00" firstAttribute="width" secondItem="mXi-qq-Eud" secondAttribute="width" id="qce-29-AwV"/>
+                            <constraint firstItem="cqs-pb-t00" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="sbo-BT-9o8"/>
+                            <constraint firstItem="vAD-oF-o9g" firstAttribute="width" secondItem="mXi-qq-Eud" secondAttribute="width" constant="2" id="x08-4a-bLR"/>
+                            <constraint firstItem="vAD-oF-o9g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="yhN-pk-SYT"/>
+                            <constraint firstItem="vAD-oF-o9g" firstAttribute="top" secondItem="Luu-sa-Aws" secondAttribute="bottom" constant="8" id="yyR-uv-fGG"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="jS4-pZ-cAP"/>
                     <connections>
                         <outlet property="GDPRConsentStringLabel" destination="cqs-pb-t00" id="1rd-5Q-9be"/>
                         <outlet property="bannerAdView" destination="vAD-oF-o9g" id="tpN-OD-ZXJ"/>
+                        <segue destination="pV0-aC-emH" kind="show" identifier="ShowDebugView" id="4Um-q9-A2y"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1056.8" y="118.29085457271366"/>
+        </scene>
+        <!--Debug View Controller-->
+        <scene sceneID="UDq-gc-tlc">
+            <objects>
+                <viewController id="pV0-aC-emH" customClass="DebugViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="50w-J4-q1w">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Bbt-6r-XJS">
+                                <rect key="frame" x="16" y="81" width="343" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Request"/>
+                                    <segment title="Response"/>
+                                </segments>
+                                <connections>
+                                    <action selector="btSegmentAction:" destination="pV0-aC-emH" eventType="valueChanged" id="LN9-lX-BTS"/>
+                                </connections>
+                            </segmentedControl>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vhf-Yd-1pf">
+                                <rect key="frame" x="16" y="135" width="359" height="532"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hjY-di-k8x"/>
+                    </view>
+                    <connections>
+                        <outlet property="lbLogViewOutelt" destination="Vhf-Yd-1pf" id="D44-Qb-xfY"/>
+                        <outlet property="segmentedControl" destination="Bbt-6r-XJS" id="yHe-Dw-Q26"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D1n-nM-ZpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1792.8" y="117.39130434782609"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="D2C-73-tp5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5CX-7B-fnZ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Xp-DU-Xph">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="a1P-9Y-Ch2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0MQ-aT-F65" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
         </scene>

@@ -1,1 +1,0 @@
-../../../AppNexusSDK/sdk/internal/MRAID/ANMRAIDResizeViewManager.h

@@ -6,7 +6,6 @@ target 'ExampleAppNexusMobileSDKIntegration' do
   # use_frameworks!
 
   # Pods for ExampleAppNexusMobileSDKIntegration
-
-  pod 'AppNexusSDK'
+ #pod 'AppNexusSDK'
 
 end

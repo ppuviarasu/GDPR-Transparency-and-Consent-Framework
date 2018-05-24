@@ -1,1 +1,0 @@
-../../../AppNexusSDK/sdk/internal/ANStandardAd.h
