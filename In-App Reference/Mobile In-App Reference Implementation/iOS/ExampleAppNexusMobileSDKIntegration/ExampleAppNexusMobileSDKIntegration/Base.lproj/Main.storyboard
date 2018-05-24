@@ -96,6 +96,7 @@
                     <connections>
                         <outlet property="GDPRConsentStringLabel" destination="cqs-pb-t00" id="1rd-5Q-9be"/>
                         <outlet property="bannerAdView" destination="vAD-oF-o9g" id="tpN-OD-ZXJ"/>
+                        <outlet property="btDebugOutlet" destination="Pr2-dY-S09" id="jdE-v4-Xdf"/>
                         <segue destination="pV0-aC-emH" kind="show" identifier="ShowDebugView" id="4Um-q9-A2y"/>
                     </connections>
                 </viewController>

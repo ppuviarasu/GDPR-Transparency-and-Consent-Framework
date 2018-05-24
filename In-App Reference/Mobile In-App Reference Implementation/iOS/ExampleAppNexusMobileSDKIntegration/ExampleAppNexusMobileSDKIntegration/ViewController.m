@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *GDPRConsentStringLabel;
 @property (nonatomic, readwrite, strong) CLLocationManager *locationManager;
 @property (weak, nonatomic) IBOutlet ANBannerAdView *bannerAdView;
+@property (weak, nonatomic) IBOutlet UIButton *btDebugOutlet;
 
 @property (strong, nonatomic) NSDictionary *jsonRequestLog;
 @property (strong, nonatomic) NSDictionary *jsonResponseLog;
@@ -39,6 +40,7 @@
     }
     
     
+    self.btDebugOutlet.userInteractionEnabled = false;
     [self addObserver];
     
 }
@@ -51,6 +53,7 @@
     NSLog(@"Received Notification - Someone seems to have logged in");
     NSDictionary *userInfo = [notification  userInfo];
     self.jsonRequestLog = userInfo;
+    self.btDebugOutlet.userInteractionEnabled = true;
     
 }
 

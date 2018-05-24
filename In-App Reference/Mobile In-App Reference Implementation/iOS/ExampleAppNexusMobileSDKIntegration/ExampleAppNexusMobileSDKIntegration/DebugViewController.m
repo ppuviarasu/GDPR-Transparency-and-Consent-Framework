@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self loadLog];
-
+    
     
     // Do any additional setup after loading the view.
 }
@@ -37,21 +37,20 @@ NSString * const  kANUniversalAdFetcherDidReceiveResponseNotification           
 NSString * const  kANUniversalAdFetcherAdResponseKey                             = @"kANUniversalAdFetcherAdResponseKey";
 
 -(void)loadLog{
-   
-    NSString* json;
-    if (_segmentedControl.selectedSegmentIndex == 0) {
-        json = self.jsonRequestLog[@"kANUniversalAdFetcherAdRequestURLKey"];// [self.jsonRequestLog objectForKey:@"kANUniversalAdFetcherAdRequestURLKey"];
-        json = [json stringByReplacingOccurrencesOfString:@"http://mediation.adnxs.com/ut/v2 /n" withString:@""];
-    } else if(_segmentedControl.selectedSegmentIndex == 1) {
-        json = self.jsonResponseLog[@"kANUniversalAdFetcherAdResponseKey"];
+    
+    NSString* json = @"";
+    if(self.jsonRequestLog != nil && self.jsonResponseLog != nil){
+        if (_segmentedControl.selectedSegmentIndex == 0) {
+            json = self.jsonRequestLog[@"kANUniversalAdFetcherAdRequestURLKey"];// [self.jsonRequestLog objectForKey:@"kANUniversalAdFetcherAdRequestURLKey"];
+            json = [json stringByReplacingOccurrencesOfString:@"http://mediation.adnxs.com/ut/v2 /n" withString:@""];
+        } else if(_segmentedControl.selectedSegmentIndex == 1) {
+            json = self.jsonResponseLog[@"kANUniversalAdFetcherAdResponseKey"];
+        }
+        NSData *data = [json dataUsingEncoding:NSUTF8StringEncoding];
+        NSDictionary* jsonLog = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+        self.lbLogViewOutelt.text = [NSString stringWithFormat:@"%@",jsonLog];
     }
-    
-    
   
-    NSData *data = [json dataUsingEncoding:NSUTF8StringEncoding];
-    NSDictionary* jsonLog = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-   
-    self.lbLogViewOutelt.text = [NSString stringWithFormat:@"%@",jsonLog];
 }
 
 - (void)didReceiveMemoryWarning {
