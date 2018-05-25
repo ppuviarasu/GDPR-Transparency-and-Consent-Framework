@@ -1,13 +1,10 @@
 package com.appnexus.opensdk.samplecmpintegration;
 
-import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Gravity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.FrameLayout;
@@ -38,13 +35,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
+        Button debugButton = findViewById(R.id.loadDebug_button);
         Button gdprButton = findViewById(R.id.gdpr_button);
         Button appnexusButton = findViewById(R.id.loadAppnexusAd_button);
         gdprInfoTextView = findViewById(R.id.consentStringTV);
         adContainerLayout = findViewById(R.id.adContainer);
-
+        loadAppNexusAd();
+        debugButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent myIntent = new Intent(MainActivity.this, DebugActivity.class);
+                MainActivity.this.startActivity(myIntent);
+            }
+        });
 
         gdprButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,8 +66,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-
     private void loadAppNexusAd() {
 
         adContainerLayout.removeAllViews();
@@ -133,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void showCMP(){
         CMPStorage.setCmpPresentValue(MainActivity.this, true);
-       
+
         // Both the Android and iOS versions are implemented as a wrapper around modified Web CMP reference.
         // Instruction on how to install and configure the WebCMP JS reference can be found inside the reference folder of this repo.
         CMPSettings cmpSettings = new CMPSettings(SubjectToGdpr.CMPGDPREnabled, "http://10.6.38.101:5000/docs/mobilecomplete.html", null);

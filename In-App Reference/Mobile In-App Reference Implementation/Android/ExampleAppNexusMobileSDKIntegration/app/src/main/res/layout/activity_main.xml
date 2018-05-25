@@ -26,6 +26,7 @@
             android:layout_margin="5dp"
             android:textAllCaps="false" />
 
+
         <FrameLayout
             android:id="@+id/adContainer"
             android:layout_width="300dp"
@@ -41,6 +42,13 @@
             android:layout_gravity="center_horizontal">
         </TextView>
 
+        <Button
+            android:id="@+id/loadDebug_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Debug"
+            android:layout_margin="5dp"
+            android:textAllCaps="false" />
 
     </LinearLayout>
 
