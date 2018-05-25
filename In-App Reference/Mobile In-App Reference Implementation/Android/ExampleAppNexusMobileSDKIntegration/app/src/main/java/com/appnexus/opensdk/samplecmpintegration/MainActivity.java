@@ -28,18 +28,19 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView gdprInfoTextView;
     private FrameLayout adContainerLayout;
-
+    Button debugButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button debugButton = findViewById(R.id.loadDebug_button);
+        debugButton = findViewById(R.id.loadDebug_button);
         Button gdprButton = findViewById(R.id.gdpr_button);
         Button appnexusButton = findViewById(R.id.loadAppnexusAd_button);
         gdprInfoTextView = findViewById(R.id.consentStringTV);
         adContainerLayout = findViewById(R.id.adContainer);
+        debugButton.setVisibility(View.GONE);
         loadAppNexusAd();
         debugButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAdLoaded(AdView bav) {
                 Clog.v("SIMPLEBANNER", "The Ad Loaded!");
+                debugButton.setVisibility(View.VISIBLE);
             }
 
             @Override
